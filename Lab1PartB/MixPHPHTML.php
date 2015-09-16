@@ -73,5 +73,55 @@
                 echo $result;
             ?>
 
+            <!--Use a loop
+            Use a loop to output the following:
+            10…9…8…7…6…5…4…3…2…1…Blast Off
+            -->
+            <br/><br/><br/>
+            <?php
+                for($number = 10; $number > 0; $number--) {
+                    echo $number . "...";
+                }
+                echo 'Blast Off';
+            ?>
+
+            <!--Use an Array
+            1.	Create an array to hold 7 colour names of your choosing.
+            2.	Output the values of the array using:
+                a.	A for loop
+            -->
+            <br/><br/><br/>
+            <?php
+                $colors = array("red", "green", "blue", "yellow", "white", "purple" ,"black");
+                echo '--------Printing the array of colors using for loop------';
+                echo '<br/>';
+                for ($i = 0; $i < count($colors); ++$i) {
+                    echo $colors[$i] . '<br/>';
+                }
+            ?>
+
+            <!--b.	A foreach loop-->
+            <br/><br/><br/>
+            <?php
+                $colors = array("red", "green", "blue", "yellow", "white", "purple" ,"black");
+                echo '-------Printing the array of colors using foreach loop-------';
+                echo '<br/>';
+                foreach ($colors as $value) {
+                    echo $value . "<br/>";
+                }
+            ?>
+            <!--c.	One other way.-->
+            <br/><br/><br/>
+            <?php
+                $colors = array("red", "green", "blue", "yellow", "white", "purple" ,"black");
+                echo '-------Printing the array of colors using another way - using the while loop------';
+                echo '<br/>';
+                $i = 0;
+                while ( $i <= 6 ) {
+                    echo $colors[$i] . "<br/>";
+                    $i++;
+                }
+            ?>
+
 </body>
 </html>
