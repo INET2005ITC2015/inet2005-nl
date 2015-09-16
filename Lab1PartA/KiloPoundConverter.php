@@ -7,24 +7,27 @@
 <body>
   		<h1>Results:</h1>
         <?php
-			$poundsResult = 0;
-			$kilosResult = 0;
-		
-		    if (isset($_POST['pounds']))
+            $poundsResult = 0;
+            $kilosResult = 0;
+
+		    if (isset($_POST['pounds']) && $_POST['pounds']!='')
 		    {
-		        $kilosResult = $_POST['kilos'];
+
+		        $poundsResult = $_POST['pounds'];
 		        
-		        $poundsResult = $kilosResult * 2.2;
-		        
-		        echo "<p>" + $kilosResult + " kilos equals " + $poundResult + " pounds.</p>";
+		        $kilosResult = $poundsResult / 2.2;
+
+                echo "<p>" . $poundsResult . " pounds equals " . $kilosResult . " kilos.</p>";
+
 		    }
-		    elseif (!isset($_POST['kilos']))
+		    elseif (isset($_POST['kilos']) && $_POST['kilos']!='' )
 		    {
-		    	$poundsResult = $_POST['pounds'];
+
+		    	$kilosResult = $_POST['kilos'];
 		    
-		    	$kilosResult = $poundsResult / 2.2;
+		    	$poundsResult = $kilosResult * 2.2;
 		    	
-		    	echo "<p>" + $poundsResult + " pounds equals " + $kilosResult + " kilos.</p>";
+		    	echo "<p>" . $kilosResult . " kilos equals "  . $poundsResult . " pounds.</p>";
 		    }
 		    else
 		    {
