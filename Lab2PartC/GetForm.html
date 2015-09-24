@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>PHP Form For Get Variable</title>
+</head>
+<body>
+<!--Step 2: Create a Two-Part Form Using GET
+    1.	Create a static HTML page that contains a form with the following elements:
+        a.	First name textbox.
+        b.	Last name textbox.
+        c.	Birthday month textbox.
+        d.	Birthday day textbox.
+    2.	Add a PHP File to handle the form submitted via GET:
+        a.	The PHP file will output a message like the following based on the input on the HTML form:
+        Hello, Mike Crocker!
+        Your zodiac sign is:  Gemini
+-->
+    <h1>PHP Form For Get Variable</h1>
+    <!--onsubmit="return validateForms()"-->
+    <form action="processGETForm.php" method="get" >
+        <p>First Name    :<input type="text" name="fName" id="fName" required placeholder="Enter your First Name Please" pattern="[a-zA-Z]+"/> </p>
+        <p>Last Name     :<input type="text" name="lName" id="lName" required placeholder="Enter your Last Name Please" pattern="[a-zA-Z]+"/></p>
+        <p>Birthday (Day):<input type="number" name="bDay" required min="1" max="31" /></p>
+        <p>Birthday (Month):<input type="month" name="bMonth" required /></p>
+        <p><input type="submit" name="Submit" value="Send Form"/></p>
+    </form>
+</body>
+</html>

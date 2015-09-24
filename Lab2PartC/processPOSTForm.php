@@ -3,7 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>PHP Form With Post Variable</title>
-  </head>
+</head>
 <body>
 
 <h2>
@@ -16,21 +16,23 @@
 
         $feet = 0;
         $inch= 0;
-		if (isset($_POST['hFeet']) && $_POST['hInch']!='') {
-		        $feet = $_POST['hFeet'];
-		        $inch  = $_POST['hInch'];
-                $inchResult = $inch / 12;
-                $feetResult = $feet + $inchResult;
-                $result = $feetResult / 3.25;
-                $result = round($result,2);
-                echo  " Your height in metres is:  " . $result . " m";
-	    }
+        if (isset($_POST['hFeet']) && $_POST['hInch']!='') {
+            $feet = $_POST['hFeet'];
+            $inch  = $_POST['hInch'];
+            $inchResult = $inch / 12;
+            $feetResult = $feet + $inchResult;
+            $result = $feetResult / 3.25;
+            $result = round($result,2);
+            echo  " Your height in metres is:  " . $result . " m";
+        }
 
     }
 
-       // put your code here
+    // put your code here
 
     ?>
 </h2>
 </body>
 </html>
+
+

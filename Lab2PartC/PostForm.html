@@ -7,27 +7,29 @@
 
 </head>
 <body>
-    <!--1.	Create a static HTML page (i.e. a “blah.html” page and not a “blah.php” page) that contains a form with the following elements:
-            a.	First name textbox.
-            b.	Last name textbox.
-            c.	Height in feet textbox.
-            d.	Height in inches textbox.
-        2.	Add a PHP File to handle the form submitted via POST:
-            e.	The PHP file will output a message like the following based on the input on the HTML form:
-            Your first name is: Mike
-            Your last name is:  Crocker
-            Your height in metres is:  1.62
-    -->
-    <h1>PHP Form For Post Variable</h1>
-    <!--onsubmit="return validateForms()"-->
-    <form action="processPOSTForm.php" method="post" >
-        <p>First Name    :<input type="text" name="fName" id="fName" required placeholder="Enter your First Name Please" pattern="[a-zA-Z]+"/> </p>
-        <p>Last Name     :<input type="text" name="lName" id="lName" required placeholder="Enter your Last Name Please" pattern="[a-zA-Z]+"/></p>
-        <p>Height (feet):<input type="number" name="hFeet" id="hFeet" required placeholder="Enter your Height in Feet Please"/></p>
-        <p>Height (inch):<input type="number" name="hInch" id="hInch" required placeholder="Enter your Height in Inches Please"/></p>
-        <p><input type="submit" name="Submit" value="Send Form"/></p>
-    </form>
+<!--1.	Create a static HTML page (i.e. a “blah.html” page and not a “blah.php” page) that contains a form with the following elements:
+        a.	First name textbox.
+        b.	Last name textbox.
+        c.	Height in feet textbox.
+        d.	Height in inches textbox.
+    2.	Add a PHP File to handle the form submitted via POST:
+        e.	The PHP file will output a message like the following based on the input on the HTML form:
+        Your first name is: Mike
+        Your last name is:  Crocker
+        Your height in metres is:  1.62
+-->
+<h1>PHP Form For Post Variable</h1>
+<!--onsubmit="return validateForms()"-->
+<form action="processPOSTForm.php" method="post" >
+    <p>First Name    :<input type="text" name="fName" id="fName" required placeholder="Enter your First Name Please" pattern="[a-zA-Z]+"/> </p>
+    <p>Last Name     :<input type="text" name="lName" id="lName" required placeholder="Enter your Last Name Please" pattern="[a-zA-Z]+"/></p>
+    <p>Height (feet):<input type="number" name="hFeet" id="hFeet" required placeholder="Enter your Height in Feet Please"/></p>
+    <p>Height (inch):<input type="number" name="hInch" id="hInch" required placeholder="Enter your Height in Inches Please"/></p>
+    <p><input type="submit" name="Submit" value="Send Form"/></p>
+</form>
 
 </body>
 </html>
+
+
 
