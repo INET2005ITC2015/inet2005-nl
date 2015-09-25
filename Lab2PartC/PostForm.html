@@ -20,11 +20,13 @@
 -->
 <h1>PHP Form For Post Variable</h1>
 <!--onsubmit="return validateForms()"-->
-<form action="processPOSTForm.php" method="post" >
+<form action="processPOSTForm.php" method="post">
     <p>First Name    :<input type="text" name="fName" id="fName" required placeholder="Enter your First Name Please" pattern="[a-zA-Z]+"/> </p>
     <p>Last Name     :<input type="text" name="lName" id="lName" required placeholder="Enter your Last Name Please" pattern="[a-zA-Z]+"/></p>
     <p>Height (feet):<input type="number" name="hFeet" id="hFeet" required placeholder="Enter your Height in Feet Please"/></p>
     <p>Height (inch):<input type="number" name="hInch" id="hInch" required placeholder="Enter your Height in Inches Please"/></p>
+    <input type="hidden" name="MAX_FILE_SIZE" value="1000000" />
+    <p>Picture      : <input name="userImage" type="file" /></p>
     <p><input type="submit" name="Submit" value="Send Form"/></p>
 </form>
 

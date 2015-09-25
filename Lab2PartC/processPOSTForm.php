@@ -25,14 +25,42 @@
             $result = round($result,2);
             echo  " Your height in metres is:  " . $result . " m";
         }
+        if((!empty($_FILES["userImage"])) && ($_FILES['userImage']['error'] == 0)) {
+            //Check if the file is JPEG image and it's size is less than 350Kb
+            //assignment
+            $fileTmpName = $_FILES['userImage']['tmp_name'];
+            $fileOrigName = $_FILES['userImage']['name'];
+            $fileSize = $_FILES['userImage']['size'];
+            $fileUploadError = $_FILES['userImage']['error']; // 0 means success
 
+            //the path to save this file
+            $newPathName = dirname(__FILE__).'/upload/'.$fileOrigName;
+
+            if (!file_exists($newPathName)) {//Check if the file already exists with same name
+                if ((move_uploaded_file($_FILES['userImage']['tmp_name'],$newPathName))) {//moving the uploaded file to it's new place
+                    echo "<p>Tmp: ".$fileTmpName. "</p>";
+                    echo "<p>Orig: ".$fileOrigName. "</p>";
+                    echo "<p>Size: ".$fileSize. "</p>";
+                    echo "<p>Error: ".$fileUploadError. "</p>";
+                    echo "<p>The file has been saved as: ".$newPathName . "!!</p>";
+                }
+                else {
+                    echo "<p>Error: Problem occurred during file upload!</p>";
+                }
+            }
+            else {
+                echo "<p>Error: File " .$fileOrigName. " already exists</p>";
+            }
+
+        }
+        else {
+            echo "<p>Error: No file uploaded</p>";
+        }
     }
 
-    // put your code here
+
 
     ?>
 </h2>
 </body>
 </html>
-
-
