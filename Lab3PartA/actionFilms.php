@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>PHP Table</title>
+    <title>PHP Table With Search Option</title>
     <style type="text/css">
     table, td, th {
     border: 1px solid red;
