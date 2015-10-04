@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="script.js"></script>
+    <title>Web Form with JavaScript</title>
+</head>
+<body>
+<form id="myForm" name="myForm" method="post" action="welcome.php" onsubmit="return checkForm()">
+    <p><label id="lblFName">First Name: <input type="text" name="firstName" id="firstName" onFocus="italicTextAndChangeBackground(this.id), labelTextUnderlined('lblFName')" onBlur="normalTextAndChangeBackground(this.id), labelTextNormal('lblFName')"/> </label></p>
+    <p><label id="lblLName">Last Name : <input type="text" name="lastName" id="lastName"   onFocus="italicTextAndChangeBackground(this.id), labelTextUnderlined('lblLName')" onBlur="normalTextAndChangeBackground(this.id), labelTextNormal('lblLName')"/></label> </p>
+    <p><label id="lblAddress1">Address 1 : <input type="text" name="address1" id="address1"  onFocus="italicTextAndChangeBackground(this.id), labelTextUnderlined('lblAddress1')" onBlur="normalTextAndChangeBackground(this.id), labelTextNormal('lblAddress1')"/> </label> </p>
+    <p><label id="lblAddress2">Address 2 : <input type="text" name="address2" id="address2"  onFocus="italicTextAndChangeBackground(this.id), labelTextUnderlined('lblAddress2')" onBlur="normalTextAndChangeBackground(this.id), labelTextNormal('lblAddress2')"/></label>  </p>
+    <p><label id="lblEmail">Email     : <input type="text" name="emailAddress" id="emailAddress"  onFocus="italicTextAndChangeBackground(this.id), labelTextUnderlined('lblEmail')" onBlur="normalTextAndChangeBackground(this.id), labelTextNormal('lblEmail')" onchange="checkEmail(this.value)"/> </label>  </p>
+    <p><input type="checkbox" name="chkBox" id = "chkBox" /> Accepts Terms and Conditions</label> <span id="checkBoxError"></span></p>
+    <p> <input type="submit" name="submit" id="submit" value="Submit" />  </p>
+</form>
+<p id = "demo"></p>
+</body>
+</html>
