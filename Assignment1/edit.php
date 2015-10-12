@@ -36,16 +36,16 @@ function editForm($emp_no, $birth_date, $first_name, $last_name, $hire_date, $ge
 }
 
 //connect to the database
-include('database_connection.php');
-
+require_once('database_connection.php');
+$db = getDBConnection();
 // check if the form has been submitted. If it has, process the form and save it to the database
 if (isset($_POST['submit'])){
     // confirm that the 'emp_no' value is a valid integer
     if (is_numeric($_POST['emp_no'])){
         // get form data
         $emp_no = $_POST['emp_no'];
-        $first_name = mysql_real_escape_string(htmlspecialchars($_POST['first_name']));
-        $last_name = mysql_real_escape_string(htmlspecialchars($_POST['last_name']));
+        $first_name = $_POST['first_name'];
+        $last_name = $_POST['last_name'];
         $birth_date =$_POST['birth_date'];
         $hire_date = $_POST['hire_date'];
         $gender = $_POST['gender'];
@@ -59,11 +59,19 @@ if (isset($_POST['submit'])){
         }
         else{
             // save the data to the database
-           $result = mysql_query("UPDATE employees SET birth_date='$birth_date', first_name='$first_name', last_name='$last_name', hire_date='$hire_date', gender='$gender'
-	 WHERE emp_no='$emp_no'") or die(mysql_error());
+           $result = mysqli_query($db,"UPDATE employees SET birth_date='$birth_date', first_name='$first_name', last_name='$last_name', hire_date='$hire_date', gender='$gender'
+	        WHERE emp_no='$emp_no'");
+            if(!$result)
+            {
+                die('Could not insert record into the Employees Database: ' . mysqli_error($db));
+            }
+            Else
+            {
+                echo "<p>Successfully Updated: " . mysqli_affected_rows($db) . " record(s)</p>";
+                echo "<p>"."<a href='index.php'>" ."Back to the Main Page</a></p>";
+            }
+            mysqli_close($db);
 
-            // once saved, back to the main page
-            header("Location: index.php");
         }
     }
     else{
@@ -77,8 +85,8 @@ else // if the form hasn't been submitted, get the data from the database and di
     if (isset($_GET['emp_no']) && is_numeric($_GET['emp_no']) && $_GET['emp_no'] > 0){
         // query db
         $emp_no = $_GET['emp_no'];
-        $result = mysql_query("SELECT * FROM employees WHERE emp_no='$emp_no'")  or die(mysql_error());
-        $row = mysql_fetch_array($result);
+        $result = mysqli_query($db,"SELECT * FROM employees WHERE emp_no='$emp_no'")  or die(mysqli_error($db));
+        $row = mysqli_fetch_array($result);
 
         // check that the 'emp_no' matches up with a row in the database
         if($row){

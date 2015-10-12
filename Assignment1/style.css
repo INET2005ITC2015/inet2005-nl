@@ -49,7 +49,7 @@ p {
 	.next{
 		position:absolute; 
 		top:1100px;
-		left:335px; 
+		left:500px;
 		width:200px; 
 		height:25px;
 	}
@@ -57,7 +57,7 @@ p {
 	.previous{
 		position:absolute; 
 		top:1100px;
-		right:190px; 
+		right:320px;
 		width:200px; 
 		height:25px;
 	}
