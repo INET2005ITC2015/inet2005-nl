@@ -75,7 +75,7 @@ else {
     if ($end >= 0)
         echo '<div class="previous"><a href="'.$_SERVER['PHP_SELF'].'?start='.$end.'"><span>Previous</span></a></div>';
     ?>
-    <p><div class="add"><a href="add1.php">Add a new record</a></div></p>
+    <p><div class="add"><a href="add.php">Add a new record</a></div></p>
     <footer div class="footer">Copyright Reserved to Nayeema Lail.&copy;2015</div></footer>
 
 <script>
