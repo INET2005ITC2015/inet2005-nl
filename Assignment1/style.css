@@ -12,6 +12,23 @@ p {
 	margin: 20px 0; 
 }
 
+a {
+    padding: 0 2px 1px 15px;
+    color: darkblue;
+}
+
+a:link {
+    padding: 0 2px 1px 15px;
+    color: darkslateblue;
+    font-weight: bold;
+}
+
+a:visited {
+    color: royalblue;
+}
+a:hover {
+    color: darkblue;
+}
 .error {color: #FF0000;}
 
 	/* 
@@ -25,7 +42,7 @@ p {
 	}
 	
 	th { 
-		background: #333; 
+		background: palevioletred;
 		color: white; 
 		font-weight: bold; 
 	}
@@ -45,42 +62,24 @@ p {
 		
 		
 	} 
-	
-	.next{
-		position:absolute; 
-		top:1100px;
-		left:500px;
-		width:200px; 
-		height:25px;
-	}
-	
-	.previous{
-		position:absolute; 
-		top:1100px;
-		right:320px;
-		width:200px; 
-		height:25px;
-	}
-	
+
 	.add{
 		position:absolute; 
-		top:1100px;
-		left:900px;
+		top:1060px;
+		left:650px;
 		width:200px; 
 		height:25px;
 	}
 	
 	/* footer */
 	.footer {
-	  top:1500px;
-	  clear: both;
-	  color: #666;  
-	  margin: 0 auto 10px auto; 
-	  width: 850px;
-	  padding: 5px 0;
+
+	  color: black;
+	  margin: 0 auto 10px auto;
+	  width: 650px;
 	  text-align: center;
 	  background: #F8F7F7;
-	  border-top: 1px solid #F2F2F2;  
+	  border-top: 1px solid #F2F2F2;
 	}
 
 
