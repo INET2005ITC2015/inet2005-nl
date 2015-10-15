@@ -14,15 +14,14 @@ function checkForm()
       return false;
     }
 
-    if(document.forms["myForm"].bDate.value.length==0)
+    if(document.forms["myForm"].birthDate.value.length==0)
     {
-       document.forms["myForm"].lastName.style.borderColor = "red";
+       document.forms["myForm"].birthDate.style.borderColor = "red";
        return false;
     }
-    if(document.forms["myForm"].hDate.value.length==0)
+    if(document.forms["myForm"].hireDate.value.length==0)
     {
-        alert("You Need to enter a date");
-        document.forms["myForm"].hDate.style.borderColor = "red";
+        document.forms["myForm"].hireDate.style.borderColor = "red";
         return false;
     }
 

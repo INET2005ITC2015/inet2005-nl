@@ -109,7 +109,7 @@
         echo "<td>" . $row['birth_date'] . "</td>";
         echo "<td>" . $row['hire_date'] . "</td>";
         echo "<td>" . $row['gender'] . "</td>";
-        echo '<td><a href="edit.php?emp_no=' . $row['emp_no'] . '"><img src="edit.png" alt="Edit"></a></td>';
+        echo '<td><a href="update.php?emp_no=' . $row['emp_no'] . '"><img src="edit.png" alt="Edit"></a></td>';
         echo '<td><a href="delete.php?emp_no=' . $row['emp_no'] . '" onClick="return confirmDelete(this);">
         <img src="delete1.jpg" alt="Delete"></a></td>';
         echo "</tr>";

@@ -15,10 +15,10 @@ function convertDateToYYYYmmdd($dateVariable){
 }
 require_once('database_connection.php');
 $db = getDBConnection();
-if (!empty($_POST['firstName']) && !empty($_POST['lastName'])&& !empty($_POST['bDate']) &&  !empty($_POST['hDate']) && !empty($_POST['gender'])) {
+if (!empty($_POST['firstName']) && !empty($_POST['lastName'])&& !empty($_POST['birthDate']) &&  !empty($_POST['hireDate']) && !empty($_POST['gender'])) {
 
-    $bDate = convertDateToYYYYmmdd($_POST['bDate']);
-    $hDate = convertDateToYYYYmmdd($_POST['hDate']);
+    $bDate = convertDateToYYYYmmdd($_POST['birthDate']);
+    $hDate = convertDateToYYYYmmdd($_POST['hireDate']);
 
     $result = mysqli_query($db, "select Max(employees.emp_no) as EmployeeId FROM employees");
     while ($row = mysqli_fetch_row($result)) {
