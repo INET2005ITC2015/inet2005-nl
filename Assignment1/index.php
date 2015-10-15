@@ -45,35 +45,35 @@ checkLogin();
     $sql = "SELECT COUNT(*) FROM employees";
     $result = mysqli_query($db, $sql);
     $r = mysqli_fetch_row($result);
-    $numrows = $r[0];
+    $numRows = $r[0];
 
     // number of rows to show per page
-    $rowsperpage = 25;
+    $rowsPerPage = 25;
     // find out total pages
-    $totalpages = ceil($numrows / $rowsperpage);
+    $totalPages = ceil($numRows / $rowsPerPage);
 
     // get the current page or set a default
-    if (!empty($_GET['currentpage']) && is_numeric($_GET['currentpage'])) {
+    if (!empty($_GET['currentPage']) && is_numeric($_GET['currentPage'])) {
         // cast var as int
-        $currentpage = (int) $_GET['currentpage'];
+        $currentPage = (int) $_GET['currentPage'];
     } else {
         // default page num
-        $currentpage = 1;
+        $currentPage = 1;
     } // end if
 
     // if current page is greater than total pages...
-    if ($currentpage > $totalpages) {
+    if ($currentPage > $totalPages) {
         // set current page to last page
-        $currentpage = $totalpages;
+        $currentPage = $totalPages;
     } // end if
     // if current page is less than first page...
-    if ($currentpage < 1) {
+    if ($currentPage < 1) {
         // set current page to first page
-        $currentpage = 1;
+        $currentPage = 1;
     } // end if
 
     // the offset of the list, based on current page
-    $offset = ($currentpage - 1) * $rowsperpage;
+    $offset = ($currentPage - 1) * $rowsPerPage;
     $sql_stmt = "SELECT * FROM employees";
 
     if(!empty($query)){
@@ -98,7 +98,7 @@ checkLogin();
                  break;
         }
     }
-    $sql_stmt =  $sql_stmt . " LIMIT $offset, $rowsperpage";
+    $sql_stmt =  $sql_stmt . " LIMIT $offset, $rowsPerPage";
 
     $result = mysqli_query($db, $sql_stmt);
 
@@ -128,39 +128,39 @@ checkLogin();
     $range = 50;
 
     // if not on page 1, don't show back links
-    if ($currentpage > 1) {
+    if ($currentPage > 1) {
         // show << link to go back to page 1
-        echo " <a href='{$_SERVER['PHP_SELF']}?currentpage=1'><<</a>";
+        echo " <a href='{$_SERVER['PHP_SELF']}?currentPage=1'><<</a>";
         // get previous page num
-        $prevpage = $currentpage - 1;
+        $prevPage = $currentPage - 1;
         // show < link to go back to 1 page
-        echo "<a href='{$_SERVER['PHP_SELF']}?currentpage=$prevpage'><</a> ";
+        echo "<a href='{$_SERVER['PHP_SELF']}?currentPage=$prevPage'><</a> ";
     } // end if
 
     // loop to show links to range of pages around current page
-    for ($x = ($currentpage - $range); $x < (($currentpage + $range) + 1); $x++) {
+    for ($x = ($currentPage - $range); $x < (($currentPage + $range) + 1); $x++) {
         // if it's a valid page number...
-        if (($x > 0) && ($x <= $totalpages)) {
+        if (($x > 0) && ($x <= $totalPages)) {
             // if we're on current page...
-            if ($x == $currentpage) {
+            if ($x == $currentPage) {
                 // 'highlight' it but don't make a link
                 echo " [<b>$x</b>] ";
                 // if not current page...
             } else {
                 // make it a link
-                echo " <a href='{$_SERVER['PHP_SELF']}?currentpage=$x'>$x</a> ";
+                echo " <a href='{$_SERVER['PHP_SELF']}?currentPage=$x'>$x</a> ";
             } // end else
         } // end if
     } // end for
 
     // if not on last page, show forward and last page links
-    if ($currentpage != $totalpages) {
+    if ($currentPage != $totalPages) {
         // get next page
-        $nextpage = $currentpage + 1;
+        $nextPage = $currentPage + 1;
         // echo forward link for next page
-        echo "<a href='{$_SERVER['PHP_SELF']}?currentpage=$nextpage'>></a>";
+        echo "<a href='{$_SERVER['PHP_SELF']}?currentPage=$nextPage'>></a>";
         // echo forward link for lastpage
-        echo " <a href='{$_SERVER['PHP_SELF']}?currentpage=$totalpages'>>></a>";
+        echo " <a href='{$_SERVER['PHP_SELF']}?currentPage=$totalPages'>>></a>";
     } // end if
     /****** end build pagination links ******/?>
     <p><div class="add"><a href="add.php">Add a new record</a></div></p>
@@ -172,11 +172,6 @@ checkLogin();
             doAjax(link.href, "POST"); // doAjax needs to send the "confirm" field
         }
         return false;
-    }
-
-    function hildeLink(){
-        document.getElementById('next').style.display = 'none';
-        return true;
     }
 
 </script>

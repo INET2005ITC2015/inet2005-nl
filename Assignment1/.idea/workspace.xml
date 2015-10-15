@@ -5,7 +5,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sept25Demo/.idea/Lab3PartA.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/.idea/Login.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sept25Demo/actionFilms.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/checkLogin.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/checkLogin.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/database_connection.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/database_connection.php" />
@@ -19,11 +18,8 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../testSrt/filmSelectable.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../testSrt/filmSortable.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sept25Demo/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/isLoggedIn.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/isLoggedIn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/login.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logout.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/logout.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/.idea/misc.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sept25Demo/.idea/misc.xml" />
@@ -54,14 +50,8 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sept25Demo/.idea/workspace.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab1PartB/MixPHPHTML.php" afterPath="$PROJECT_DIR$/../Lab1PartB/MixPHPHTML.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add.php" afterPath="$PROJECT_DIR$/add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delete.php" afterPath="$PROJECT_DIR$/delete.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insert.php" afterPath="$PROJECT_DIR$/insert.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab2PartC/processPOSTForm.php" afterPath="$PROJECT_DIR$/../Lab2PartC/processPOSTForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/update.php" afterPath="$PROJECT_DIR$/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/update_emp.php" afterPath="$PROJECT_DIR$/update_emp.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab2PartA/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lab2PartA/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab3PartB/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lab3PartB/.idea/workspace.xml" />
@@ -97,18 +87,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2880">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.10276074" vertical-offset="2153" max-vertical-offset="2805">
+              <caret line="148" column="20" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="20" />
               <folding>
-                <marker date="1444924376184" expanded="true" signature="539:599" placeholder="..." />
-                <marker date="1444924376184" expanded="true" signature="851:1240" placeholder="..." />
-                <marker date="1444924376184" expanded="true" signature="1454:1484" placeholder="SELECT COUNT..employees..." />
-                <marker date="1444924376184" expanded="true" signature="2475:2498" placeholder="SELECT * FRO..employees..." />
-                <marker date="1444924376184" expanded="true" signature="3902:4045" placeholder="..." />
-                <marker date="1444924376184" expanded="true" signature="3991:4040" placeholder="..." />
+                <marker date="1444926981413" expanded="true" signature="539:599" placeholder="..." />
+                <marker date="1444926981413" expanded="true" signature="851:1240" placeholder="..." />
+                <marker date="1444926981413" expanded="true" signature="1454:1484" placeholder="SELECT COUNT..employees..." />
+                <marker date="1444926981413" expanded="true" signature="2475:2498" placeholder="SELECT * FRO..employees..." />
+                <marker date="1444926981413" expanded="true" signature="3902:4045" placeholder="..." />
+                <marker date="1444926981413" expanded="true" signature="3991:4040" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -170,10 +160,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="667">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="660">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -228,7 +218,6 @@
         <option value="$PROJECT_DIR$/search.php" />
         <option value="$PROJECT_DIR$/script.js" />
         <option value="$PROJECT_DIR$/checkLogin.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/add.php" />
         <option value="$PROJECT_DIR$/logout.php" />
@@ -237,6 +226,7 @@
         <option value="$PROJECT_DIR$/insert.php" />
         <option value="$PROJECT_DIR$/delete.php" />
         <option value="$PROJECT_DIR$/update_emp.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -407,7 +397,13 @@
       <option name="project" value="LOCAL" />
       <updated>1444917586303</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Assignment 1 - Completely Done">
+      <created>1444926244247</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1444926244247</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -417,6 +413,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37052932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -426,7 +423,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -480,7 +476,8 @@
     <MESSAGE value="Assignment 1 - Req 1, 2,3, 4, 5, 6, 7 Done" />
     <MESSAGE value="Assignment 1 - Req 2 Done (paging was broken previously)" />
     <MESSAGE value="Assignment 1 - Some issues with the naming of boxes is found and solved. Also had some error in previous update function solved the error and Req 1- 7 and req 9 solved without any error" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 1 - Some issues with the naming of boxes is found and solved. Also had some error in previous update function solved the error and Req 1- 7 and req 9 solved without any error" />
+    <MESSAGE value="Assignment 1 - Completely Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 1 - Completely Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -573,12 +570,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2805">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1444924376184" expanded="true" signature="539:599" placeholder="..." />
-            <marker date="1444924376184" expanded="true" signature="851:1240" placeholder="..." />
-            <marker date="1444924376184" expanded="true" signature="1454:1484" placeholder="SELECT COUNT..employees..." />
-            <marker date="1444924376184" expanded="true" signature="2475:2498" placeholder="SELECT * FRO..employees..." />
-            <marker date="1444924376184" expanded="true" signature="3902:4045" placeholder="..." />
-            <marker date="1444924376184" expanded="true" signature="3991:4040" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="539:599" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="851:1240" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="1454:1484" placeholder="SELECT COUNT..employees..." />
+            <marker date="1444926981413" expanded="true" signature="2475:2498" placeholder="SELECT * FRO..employees..." />
+            <marker date="1444926981413" expanded="true" signature="3902:4045" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="3991:4040" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -657,12 +654,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2805">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1444924376184" expanded="true" signature="539:599" placeholder="..." />
-            <marker date="1444924376184" expanded="true" signature="851:1240" placeholder="..." />
-            <marker date="1444924376184" expanded="true" signature="1454:1484" placeholder="SELECT COUNT..employees..." />
-            <marker date="1444924376184" expanded="true" signature="2475:2498" placeholder="SELECT * FRO..employees..." />
-            <marker date="1444924376184" expanded="true" signature="3902:4045" placeholder="..." />
-            <marker date="1444924376184" expanded="true" signature="3991:4040" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="539:599" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="851:1240" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="1454:1484" placeholder="SELECT COUNT..employees..." />
+            <marker date="1444926981413" expanded="true" signature="2475:2498" placeholder="SELECT * FRO..employees..." />
+            <marker date="1444926981413" expanded="true" signature="3902:4045" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="3991:4040" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -714,12 +711,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2805">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1444924376184" expanded="true" signature="539:599" placeholder="..." />
-            <marker date="1444924376184" expanded="true" signature="851:1240" placeholder="..." />
-            <marker date="1444924376184" expanded="true" signature="1454:1484" placeholder="SELECT COUNT..employees..." />
-            <marker date="1444924376184" expanded="true" signature="2475:2498" placeholder="SELECT * FRO..employees..." />
-            <marker date="1444924376184" expanded="true" signature="3902:4045" placeholder="..." />
-            <marker date="1444924376184" expanded="true" signature="3991:4040" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="539:599" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="851:1240" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="1454:1484" placeholder="SELECT COUNT..employees..." />
+            <marker date="1444926981413" expanded="true" signature="2475:2498" placeholder="SELECT * FRO..employees..." />
+            <marker date="1444926981413" expanded="true" signature="3902:4045" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="3991:4040" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -771,12 +768,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2805">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1444924376184" expanded="true" signature="539:599" placeholder="..." />
-            <marker date="1444924376184" expanded="true" signature="851:1240" placeholder="..." />
-            <marker date="1444924376184" expanded="true" signature="1454:1484" placeholder="SELECT COUNT..employees..." />
-            <marker date="1444924376184" expanded="true" signature="2475:2498" placeholder="SELECT * FRO..employees..." />
-            <marker date="1444924376184" expanded="true" signature="3902:4045" placeholder="..." />
-            <marker date="1444924376184" expanded="true" signature="3991:4040" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="539:599" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="851:1240" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="1454:1484" placeholder="SELECT COUNT..employees..." />
+            <marker date="1444926981413" expanded="true" signature="2475:2498" placeholder="SELECT * FRO..employees..." />
+            <marker date="1444926981413" expanded="true" signature="3902:4045" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="3991:4040" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -828,12 +825,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1444924376184" expanded="true" signature="539:599" placeholder="..." />
-            <marker date="1444924376184" expanded="true" signature="851:1240" placeholder="..." />
-            <marker date="1444924376184" expanded="true" signature="1454:1484" placeholder="SELECT COUNT..employees..." />
-            <marker date="1444924376184" expanded="true" signature="2475:2498" placeholder="SELECT * FRO..employees..." />
-            <marker date="1444924376184" expanded="true" signature="3902:4045" placeholder="..." />
-            <marker date="1444924376184" expanded="true" signature="3991:4040" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="539:599" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="851:1240" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="1454:1484" placeholder="SELECT COUNT..employees..." />
+            <marker date="1444926981413" expanded="true" signature="2475:2498" placeholder="SELECT * FRO..employees..." />
+            <marker date="1444926981413" expanded="true" signature="3902:4045" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="3991:4040" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -851,12 +848,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1950">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1444924376184" expanded="true" signature="539:599" placeholder="..." />
-            <marker date="1444924376184" expanded="true" signature="851:1240" placeholder="..." />
-            <marker date="1444924376184" expanded="true" signature="1454:1484" placeholder="SELECT COUNT..employees..." />
-            <marker date="1444924376184" expanded="true" signature="2475:2498" placeholder="SELECT * FRO..employees..." />
-            <marker date="1444924376184" expanded="true" signature="3902:4045" placeholder="..." />
-            <marker date="1444924376184" expanded="true" signature="3991:4040" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="539:599" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="851:1240" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="1454:1484" placeholder="SELECT COUNT..employees..." />
+            <marker date="1444926981413" expanded="true" signature="2475:2498" placeholder="SELECT * FRO..employees..." />
+            <marker date="1444926981413" expanded="true" signature="3902:4045" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="3991:4040" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -907,21 +904,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1444923599717" expanded="true" signature="491:567" placeholder="SELECT * FRO..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2880">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1444924376184" expanded="true" signature="539:599" placeholder="..." />
-            <marker date="1444924376184" expanded="true" signature="851:1240" placeholder="..." />
-            <marker date="1444924376184" expanded="true" signature="1454:1484" placeholder="SELECT COUNT..employees..." />
-            <marker date="1444924376184" expanded="true" signature="2475:2498" placeholder="SELECT * FRO..employees..." />
-            <marker date="1444924376184" expanded="true" signature="3902:4045" placeholder="..." />
-            <marker date="1444924376184" expanded="true" signature="3991:4040" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -986,6 +968,21 @@
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="660">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10276074" vertical-offset="2153" max-vertical-offset="2805">
+          <caret line="148" column="20" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="20" />
+          <folding>
+            <marker date="1444926981413" expanded="true" signature="539:599" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="851:1240" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="1454:1484" placeholder="SELECT COUNT..employees..." />
+            <marker date="1444926981413" expanded="true" signature="2475:2498" placeholder="SELECT * FRO..employees..." />
+            <marker date="1444926981413" expanded="true" signature="3902:4045" placeholder="..." />
+            <marker date="1444926981413" expanded="true" signature="3991:4040" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
