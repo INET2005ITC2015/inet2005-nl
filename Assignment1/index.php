@@ -1,8 +1,13 @@
+<?php
+require('isLoggedIn.php');
+checkLogin();
+?>
 <!DOCTYPE html>
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>View Records</title>
+    <div class="topCorner"><input type='button' value='Click me to Logout' onClick="location.href='logout.php'" /></div>
 </head>
 <body>
 

@@ -1,8 +1,14 @@
+<?php
+require('isLoggedIn.php');
+checkLogin();
+?>
 <!DOCTYPE html>
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Insert Into the Employees</title>
+    <title>Inserting Into the Employees</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <div class="topCorner"><input type='button' value='Click me to Logout' onClick="location.href='logout.php'" /></div>
     <script src="script.js"></script>
 </head>
 <body>

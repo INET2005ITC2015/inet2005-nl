@@ -1,8 +1,14 @@
+<?php
+require('isLoggedIn.php');
+checkLogin();
+?>
 <!DOCTYPE html>
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Update the Employees</title>
+    <title>Updated the Employees</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <div class="topCorner"><input type='button' value='Click me to Logout' onClick="location.href='logout.php'" /></div>
 </head>
 <body>
 <?php
@@ -28,18 +34,18 @@ if (!empty($_POST['firstName']) && !empty($_POST['lastName'])&& !empty($_POST['b
 
     if(!$updateResult)
     {
-        die('Could not insert record into the Employees Database: ' . mysqli_error($db));
+        die('<h2>Could not insert record into the Employees Database: ' . mysqli_error($db) . '</h2>');
     }
     Else
     {
-        echo "<p>Successfully Updated: " . mysqli_affected_rows($db) . " record(s)</p>";
+        echo "<p><h2>Successfully Updated: " . mysqli_affected_rows($db) . " record(s)</h2></p>";
         echo "<p>"."<a href='index.php'>" ."Back to the Main Page</a></p>";
     }
     mysqli_close($db);
 }
 else {
     echo "<h2>" . "Nothing To Do" . "</h2>";
-    echo "<p>"."<a href='index.php'>" ."Back to the Main Page</a></p>";
+    echo "<p>"."<a href='index.php'>" ."<h2>Back to the Main Page</h2></a></p>";
 }
 ?>
 
