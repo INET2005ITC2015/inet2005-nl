@@ -55,3 +55,7 @@
 
     }
 
+    else{
+        echo "<h4>Nothing to do</h4>";
+    }
+
