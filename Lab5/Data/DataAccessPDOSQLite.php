@@ -163,6 +163,12 @@ class DataAccessPDOSQLite extends aDataAccess
     {
 
     }
+
+    public function selectDataForSearch($start,$count, $query)
+    {
+
+
+    }
 }
 
 ?>

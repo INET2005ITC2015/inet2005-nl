@@ -41,6 +41,8 @@ abstract class aDataAccess
 
     public abstract function selectSingleActor($actorId);
 
+    public abstract function selectDataForSearch($start, $count, $query);
+
     public abstract function fetchFilmID($row);
 
     public abstract function fetchTitle($row);

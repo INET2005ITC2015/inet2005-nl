@@ -38,6 +38,17 @@ class DataAccessMySQLi extends aDataAccess
 
     }
 
+    public function selectDataForSearch($start,$count, $query)
+    {
+        $this->result = @$this->dbConnection->query("SELECT * FROM actor WHERE first_name LIKE  '%$query%' OR last_name LIKE '%$query%' ORDER BY actor_id DESC LIMIT $start,$count");
+        if(!$this->result)
+        {
+            die('Could not retrieve records from the Sakila Database: ' .
+                $this->dbConnection->error);
+        }
+
+    }
+
     public function selectFilms($start,$count)
     {
         $this->result = @$this->dbConnection->query("SELECT * FROM film LIMIT $start,$count");
@@ -138,4 +149,4 @@ class DataAccessMySQLi extends aDataAccess
     }
 }
 
-?>
+

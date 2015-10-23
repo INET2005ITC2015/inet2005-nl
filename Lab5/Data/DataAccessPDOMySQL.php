@@ -173,6 +173,11 @@ class DataAccessPDOMySQL extends aDataAccess
 
     }
 
+    public function selectDataForSearch($start,$count, $query)
+    {
+
+    }
+
 }
 
 ?>

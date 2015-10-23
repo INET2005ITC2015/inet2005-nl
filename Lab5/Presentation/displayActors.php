@@ -19,7 +19,14 @@ and open the template in the editor.
         </style>
     </head>
     <body>
-        <h1>Actor:</h1>
+    <form action="searchActor.php"  method="post" name="searchname">
+        <legend><h2>Enter Text to Search:</h2></legend>
+        <p><input type='text' name='query' value="<?php echo $query ?>"/></p>
+        <p><input type='submit' value='Search Name' /></p>
+
+    </form>
+
+    <h1>Actor:</h1>
         <table>
             <thead>
                 <tr>
@@ -50,6 +57,7 @@ and open the template in the editor.
             </tbody>
         </table>
         <p><a href='displayFilms.php'>Display Film Information</a></p>
+        <p><a href='displayActors.php'>Display Actor Information</a></p>
         <p><a href='newActorForm.html'>Insert Into Actor</a></p>
         <p><a href='updateActorForm.html'>Update Into Actor</a></p>
         <p><a href='deleteActorForm.html'>Delete from Actor</a></p>

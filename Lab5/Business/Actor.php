@@ -92,6 +92,25 @@ class Actor implements iBusinessObject
 
     }
 
+    public static function retrieveForSearch($start,$count, $query){
+        $myDataAccess = aDataAccess::getInstance();
+        $myDataAccess->connectToDB();
+
+        $myDataAccess->selectDataForSearch($start,$count, $query);
+
+        while($row = $myDataAccess->fetchActors())
+        {
+            $currentActor = new self($myDataAccess->fetchActorFirstName($row),
+                $myDataAccess->fetchActorLastName($row), $myDataAccess->fetchActorID($row));
+            $currentActor->m_actorId = $myDataAccess->fetchActorID($row);
+            $arrayOfActorObjects[] = $currentActor;
+        }
+
+        $myDataAccess->closeDB();
+
+        return $arrayOfActorObjects;
+    }
+
     public static function retrieveSingleActor($actorId)
     {
         $myDataAccess = aDataAccess::getInstance();

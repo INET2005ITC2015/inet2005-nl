@@ -65,6 +65,9 @@ class Film implements iBusinessObject
 
     public static function retrieveSingleActor($actorId){
     }
+
+    public static function retrieveForSearch($start,$count, $query){
+    }
 }
 
 ?>
