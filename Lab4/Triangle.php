@@ -1,6 +1,8 @@
 <?php
 require_once("Shape.php");
-class Triangle extends Shape{
+require_once("iResizeable.php");
+
+class Triangle extends Shape implements iResizeable{
     private $base;
     private $height;
 
@@ -19,5 +21,12 @@ class Triangle extends Shape{
         return $result;
         }
         return 0;
+    }
+
+    // Interface method
+    public function resize($sizeChange)
+    {
+        $percent = ($sizeChange / 100) * $this->height ;
+        return $this->base * 0.5 * $percent;
     }
 }

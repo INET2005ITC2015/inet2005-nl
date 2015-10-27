@@ -4,7 +4,9 @@
  * and open the template in the editor.
  */
 require_once("Shape.php");
-class Circle extends Shape
+require_once("iResizeable.php");
+
+class Circle extends Shape implements iResizeable
 {
     private $radius;
 
@@ -22,5 +24,13 @@ class Circle extends Shape
             return $result;
         }
         return 0;
+    }
+
+    // Interface method
+    public function resize($sizeChange)
+    {
+        $radiusSquare = $this->radius * $this->radius;
+        $percent = ($sizeChange / 100) * $radiusSquare;
+        return  pi() * $percent;
     }
 }
