@@ -11,9 +11,10 @@ class Actor implements iBusinessObject
     
     public function __construct($in_fname,$in_lname, $in_actorId)
     {
-        $this->m_actorId = $in_actorId;
+        //$this->m_actorId = $in_actorId;
         $this->m_firstName = $in_fname;
         $this->m_lastName = $in_lname;
+        $this->m_actorId = $in_actorId;
 
     }
     
@@ -134,4 +135,3 @@ class Actor implements iBusinessObject
 
 
 
-?>

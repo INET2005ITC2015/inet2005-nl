@@ -12,9 +12,7 @@ and open the template in the editor.
 <?php
 
     $result = "";
-    //require("../Business/Actor.php");
     $actorId = $_POST['idDelete'];
-    //$actor = Actor::retrieveSingleActor($actorId);
     if(!empty($_POST['idDelete']) && isset($_POST['delete']))
     {
         require("../Business/Actor.php");

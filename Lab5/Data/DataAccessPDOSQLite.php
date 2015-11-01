@@ -16,7 +16,8 @@ class DataAccessPDOSQLite extends aDataAccess
     {
         try
         {
-            $this->dbConnection = new PDO("sqlite:/home/inet2005/code/inet2005ins/PHP3Tier/Data/db/mydb.sqlite");
+            ///home/inet2005/Code/PHP/inet2005-nl/Lab5/Data/db/sakila.sqlite
+            $this->dbConnection = new PDO("sqlite:/home/inet2005/Code/PHP/inet2005-nl/Lab5/Data/db/sakila.sqlite");
             $this->dbConnection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         }
         catch(PDOException $ex)
@@ -35,7 +36,7 @@ class DataAccessPDOSQLite extends aDataAccess
     {
         try
         {
-            $this->stmt = $this->dbConnection->prepare('SELECT * FROM actor LIMIT :start, :count');
+            $this->stmt = $this->dbConnection->prepare('SELECT * FROM actor ORDER BY actor_id DESC LIMIT :start, :count');
             $this->stmt->bindParam(':start', $start, PDO::PARAM_INT);
             $this->stmt->bindParam(':count', $count, PDO::PARAM_INT);
 
@@ -139,14 +140,20 @@ class DataAccessPDOSQLite extends aDataAccess
 
     }
 
+
     public function insertActor($firstName,$lastName)
     {
         try
         {
-            $this->stmt = $this->dbConnection->prepare('INSERT INTO actor(first_name,last_name) VALUES(:firstName, :lastName)');
+            $this->stmt = $this->dbConnection->prepare('SELECT MAX(actor_id) FROM actor');
+            $this->stmt->execute();
+            $row =  $this->stmt->fetch();
+            $row = $row[0] + 1;
+
+            $this->stmt = $this->dbConnection->prepare('INSERT INTO actor(actor_id, first_name,last_name) VALUES(:row, :firstName, :lastName)');
             $this->stmt->bindParam(':firstName', $firstName, PDO::PARAM_STR);
             $this->stmt->bindParam(':lastName', $lastName, PDO::PARAM_STR);
-
+            $this->stmt->bindParam(':row', $row, PDO::PARAM_INT);
             $this->stmt->execute();
 
             return $this->stmt->rowCount();
@@ -157,18 +164,59 @@ class DataAccessPDOSQLite extends aDataAccess
         }
     }
 
-    public function updateActor($firstName,$lastName, $actorId){}
+    public function updateActor($firstName, $lastName, $actorId){
+
+        try
+        {
+            $this->stmt = $this->dbConnection->prepare('UPDATE actor SET first_name = :firstName,last_name = :lastName WHERE actor_id = :actorId;');
+            $this->stmt->bindParam(':firstName', $firstName, PDO::PARAM_STR);
+            $this->stmt->bindParam(':lastName', $lastName, PDO::PARAM_STR);
+            $this->stmt->bindParam(':actorId', $actorId, PDO::PARAM_INT);
+            $this->stmt->execute();
+
+            return $this->stmt->rowCount();
+        }
+        catch(PDOException $ex)
+        {
+            die('Could not insert record into SQLite Database via PDO: ' . $ex->getMessage());
+        }
+    }
 
     public function deleteActor($actorId)
     {
+        try
+        {
+            $this->stmt = $this->dbConnection->prepare('DELETE FROM actor WHERE actor_id = :actorId;');
+            $this->stmt->bindParam(':actorId', $actorId, PDO::PARAM_INT);
+            $this->stmt->execute();
+
+            return $this->stmt->rowCount();
+        }
+        catch(PDOException $ex)
+        {
+            die('Could not insert record into SQLite Database via PDO: ' . $ex->getMessage());
+        }
 
     }
 
     public function selectDataForSearch($start,$count, $query)
     {
 
+        try
+        {
+            $query = "%" .$query. "%";
+            $this->stmt = $this->dbConnection->prepare('SELECT * FROM actor WHERE first_name LIKE :query OR last_name LIKE :query ORDER BY actor_id DESC LIMIT :start, :count');
+            $this->stmt->bindParam(':start', $start, PDO::PARAM_INT);
+            $this->stmt->bindParam(':count', $count, PDO::PARAM_INT);
+            $this->stmt->bindParam(':query', $query, PDO::PARAM_STR);
+            $this->stmt->execute();
+        }
+        catch(PDOException $ex)
+        {
+            die('Could not select records from SQLite Database via PDO: ' . $ex->getMessage());
+        }
 
     }
 }
 
-?>
+

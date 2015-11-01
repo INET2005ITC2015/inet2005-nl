@@ -55,4 +55,4 @@ abstract class aDataAccess
 
     public abstract function deleteActor($actorId);
 }
-?>
+
