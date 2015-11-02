@@ -32,7 +32,7 @@
         $sqlStatement .= $searchString;
         $sqlStatement .= "%' OR last_name LIKE '";
         $sqlStatement .= $searchString;
-        $sqlStatement .= "%' LIMIT 0, 10;";
+        $sqlStatement .= "%' ;";
 
         $result = mysqli_query($dbConnection,$sqlStatement);
         if(!$result)
