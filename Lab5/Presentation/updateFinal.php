@@ -17,7 +17,7 @@ and open the template in the editor.
     {
         require("../Business/Actor.php");
 
-        $updateActor = new Actor($_POST['firstName'],$_POST['lastName'], $_POST['id']);
+        $updateActor = new Actor(strtoupper($_POST['firstName']),strtoupper($_POST['lastName']), $_POST['id']);
 
         $result = $updateActor->update();
     }
