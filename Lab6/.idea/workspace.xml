@@ -19,7 +19,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/images/forward_enabled_hover.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/images/forward_enabled_hover.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/toolTip/images/info.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tooltipEmployees/images/info.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tootltiptTest/images/info.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/images/sort_asc.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/images/sort_asc.png" />
@@ -70,8 +69,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/css/smoothness/images/ui-icons_cd0a0a_256x240.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/css/smoothness/images/ui-icons_cd0a0a_256x240.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/css/smoothness/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab6PartA/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab6PartB/.idea/.name" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/.idea/AJAXGrid.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemo1Web1.0/.idea/AjaxDemo1Web1.0.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemoWeb2.0/.idea/AjaxDemoWeb2.0.iml" />
@@ -82,9 +79,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/.idea/JQGridonEmployee.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sept25Demo/.idea/Lab3PartA.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab4-Interface/.idea/Lab4-Interface.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab6PartA/.idea/Lab6.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartA/.idea/Lab6.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab6PartB/.idea/Lab6PartB.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/.idea/Lab6PartB.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/.idea/Login.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SearchinAJAX/.idea/SearchinAJAX.iml" />
@@ -106,8 +101,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemo1Web1.0/dbConn.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemoWeb2.0/dbConn.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/dbConn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab6PartB/dbConn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tooltipEmployees/dbConn.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartA/dbConn.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/dbConn.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SearchinAJAX/dbConn.php" />
@@ -115,24 +108,19 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/dbConn.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tootltiptTest/dbConn.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemoWeb2.0/debug.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab6PartB/debug.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartA/debug.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/debug.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SearchinAJAX/debug.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/debug.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/empDepartmentInfo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tooltipEmployees/empDepartmentInfo.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tootltiptTest/empDepartmentInfo.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/employees.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/employees.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tooltipEmployees/employees.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/.idea/encodings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemo1Web1.0/.idea/encodings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemoWeb2.0/.idea/encodings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/.idea/encodings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab4-Interface/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab6PartA/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab6PartB/.idea/encodings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartA/.idea/encodings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/.idea/encodings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/.idea/encodings.xml" />
@@ -291,12 +279,10 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/jquery-1.11.0.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/jquery-1.11.0.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/jquery-1.11.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab6PartB/jquery-1.11.1.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/jquery-1.11.1.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SearchinAJAX/jquery-1.11.1.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/toolTip/js/jquery-1.3.2.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/jquery-1.3.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tooltipEmployees/js/jquery-1.3.2.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tootltiptTest/js/jquery-1.3.2.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/css/smoothness/jquery-ui.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/css/smoothness/jquery-ui.css" />
@@ -327,15 +313,12 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/js/jquery.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/toolTip/js/jquery.qtip-1.0.0-rc3.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/jquery.qtip-1.0.0-rc3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tooltipEmployees/js/jquery.qtip-1.0.0-rc3.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tootltiptTest/js/jquery.qtip-1.0.0-rc3.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/login.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/logout.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/.idea/misc.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemo1Web1.0/.idea/misc.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab4-Interface/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab6PartA/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab6PartB/.idea/misc.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartA/.idea/misc.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/.idea/misc.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/.idea/misc.xml" />
@@ -348,8 +331,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemoWeb2.0/.idea/modules.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/.idea/modules.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab4-Interface/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab6PartA/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab6PartB/.idea/modules.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartA/.idea/modules.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/.idea/modules.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/.idea/modules.xml" />
@@ -363,18 +344,14 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/myCode.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/toolTip/myCode.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/myCode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab6PartB/myCode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tooltipEmployees/myCode.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/myCode.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SearchinAJAX/myCode.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/myCode.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tootltiptTest/myCode.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartA/newEmployeeLookup.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartA/newEmployeeSearcher.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab6PartB/newEmployeesNameLookup.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/newEmployeesNameLookup.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SearchinAJAX/newEmployeesNameLookup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab6PartB/newEmployeesNameSearcher.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/newEmployeesNameSearcher.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SearchinAJAX/newEmployeesNameSearcher.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemoWeb2.0/newFilmLookup.html" />
@@ -382,8 +359,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemoWeb2.0/newFilmSearcher.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/newFilmSearcher.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemo1Web1.0/oldFilmLookup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab6PartA/.idea/php.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab6PartB/.idea/php.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartA/.idea/php.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/.idea/php.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SearchinAJAX/.idea/php.xml" />
@@ -395,8 +370,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/.idea/scopes/scope_settings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab01/.idea/scopes/scope_settings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab4-Interface/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab6PartA/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab6PartB/.idea/scopes/scope_settings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartA/.idea/scopes/scope_settings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/.idea/scopes/scope_settings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/.idea/scopes/scope_settings.xml" />
@@ -409,7 +382,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../testSrt/selectedFilm.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/styles.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/toolTip/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tooltipEmployees/styles.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/styles.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tootltiptTest/styles.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/success.php" />
@@ -428,8 +400,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemoWeb2.0/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab4-Interface/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab6PartA/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab6PartB/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartA/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/.idea/vcs.xml" />
@@ -441,24 +411,17 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/.idea/workspace.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/.idea/workspace.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab4-Interface/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab6PartA/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab6PartB/.idea/workspace.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/.idea/workspace.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/.idea/workspace.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SearchinAJAX/.idea/workspace.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sept25Demo/.idea/workspace.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/.idea/workspace.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/../Lab4-Interface/.idea/php.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lab6PartA/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax.js" afterPath="$PROJECT_DIR$/Lab6PartA/ajax.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajaxEmployeesLookup.js" afterPath="$PROJECT_DIR$/Lab6PartA/ajaxEmployeesLookup.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dbConn.php" afterPath="$PROJECT_DIR$/Lab6PartA/dbConn.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/debug.php" afterPath="$PROJECT_DIR$/Lab6PartA/debug.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/newEmployeeLookup.html" afterPath="$PROJECT_DIR$/Lab6PartA/newEmployeeLookup.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/newEmployeeSearcher.php" afterPath="$PROJECT_DIR$/Lab6PartA/newEmployeeSearcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab5/Data/db/sakila.sqlite" afterPath="$PROJECT_DIR$/../Lab5/Data/db/sakila.sqlite" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab1PartB/MixPHPHTML.php" afterPath="$PROJECT_DIR$/../Lab1PartB/MixPHPHTML.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab5/Data/aDataAccess.php" afterPath="$PROJECT_DIR$/../Lab5/Data/aDataAccess.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab3PartA/actionFilms.php" afterPath="$PROJECT_DIR$/../Lab3PartA/actionFilms.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tooltipEmployees/employees.php" afterPath="$PROJECT_DIR$/tooltipEmployees/employees.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment1/index.php" afterPath="$PROJECT_DIR$/../Assignment1/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab2PartC/processPOSTForm.php" afterPath="$PROJECT_DIR$/../Lab2PartC/processPOSTForm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" />
@@ -513,10 +476,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".name" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab6PartB/.idea/.name">
+      <file leaf-file-name="employees.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tooltipEmployees/employees.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+            <state vertical-scroll-proportion="0.59768635" vertical-offset="0" max-vertical-offset="960">
+              <caret line="31" column="125" selection-start-line="31" selection-start-column="125" selection-end-line="31" selection-end-column="125" />
+              <folding>
+                <marker date="1446656119889" expanded="true" signature="1009:1095" placeholder="SELECT emp_n..employees..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="debug.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab6PartA/debug.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="210">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -526,7 +501,7 @@
       <file leaf-file-name="newEmployeesNameLookup.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab6PartB/newEmployeesNameLookup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="420">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -536,7 +511,7 @@
       <file leaf-file-name="newEmployeesNameSearcher.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab6PartB/newEmployeesNameSearcher.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="555">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -546,7 +521,7 @@
       <file leaf-file-name="dbConn.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tooltipEmployees/dbConn.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="240">
+            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="240">
               <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
@@ -563,32 +538,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-1.11.1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab6PartB/jquery-1.11.1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="154710">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="debug.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab6PartB/debug.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="210">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbConn.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dbConn.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab6PartB/dbConn.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.023006136" vertical-offset="0" max-vertical-offset="885">
+            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="885">
               <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
               <folding>
                 <marker date="1446470936000" expanded="true" signature="661:798" placeholder="SELECT CONCA..employees..." />
@@ -606,6 +569,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/tooltipEmployees/dbConn.php" />
+        <option value="$PROJECT_DIR$/tooltipEmployees/employees.php" />
       </list>
     </option>
   </component>
@@ -616,8 +580,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="y" value="28" />
-    <option name="width" value="1442" />
-    <option name="height" value="840" />
+    <option name="width" value="1282" />
+    <option name="height" value="964" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -642,6 +606,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -662,11 +627,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -693,11 +658,20 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="28aba953-4262-4220-94e6-a2732b26c565" name="Default" comment="" />
@@ -705,16 +679,23 @@
       <option name="number" value="Default" />
       <updated>1446342328710</updated>
     </task>
+    <task id="LOCAL-00001" summary="Lab 6 - Part A and Part B (step 2) on employees database done">
+      <created>1446479633204</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1446479633204</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="28" width="1442" height="840" extended-state="6" />
+    <frame x="-1" y="28" width="1282" height="964" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2609047" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -723,6 +704,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -748,34 +730,96 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Lab 6 - Part A and Part B (step 2) on employees database done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 6 - Part A and Part B (step 2) on employees database done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lab6PartA/.idea/.name">
+    <entry file="file://$PROJECT_DIR$/Lab6PartA/dbConn.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1446338778000" expanded="true" signature="674:811" placeholder="SELECT CONCA..employees..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab6PartA/newEmployeeLookup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab6PartA/ajaxEmployeesLookup.js">
+    <entry file="file://$PROJECT_DIR$/Lab6PartB/.idea/.name">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab6PartA/ajax.js">
+    <entry file="file://$PROJECT_DIR$/Lab6PartB/newEmployeesNameLookup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab6PartB/newEmployeesNameSearcher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tooltipEmployees/dbConn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="240">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab6PartB/myCode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab6PartB/jquery-1.11.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="154710">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab6PartB/debug.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab6PartB/dbConn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1446470936000" expanded="true" signature="661:798" placeholder="SELECT CONCA..employees..." />
           </folding>
         </state>
       </provider>
@@ -792,9 +836,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab6PartA/newEmployeeLookup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab6PartB/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab6PartB/newEmployeesNameLookup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab6PartB/newEmployeesNameSearcher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tooltipEmployees/dbConn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="240">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab6PartB/myCode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab6PartB/jquery-1.11.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="154710">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab6PartB/debug.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab6PartB/dbConn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1446470936000" expanded="true" signature="661:798" placeholder="SELECT CONCA..employees..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab6PartA/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab6PartA/ajaxEmployeesLookup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab6PartA/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -850,7 +983,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tooltipEmployees/dbConn.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="240">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="240">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
@@ -858,10 +991,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab6PartB/dbConn.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023006136" vertical-offset="0" max-vertical-offset="885">
+        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="885">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
           <folding>
             <marker date="1446470936000" expanded="true" signature="661:798" placeholder="SELECT CONCA..employees..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab6PartA/dbConn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1446338778000" expanded="true" signature="674:811" placeholder="SELECT CONCA..employees..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab6PartA/debug.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="815">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab6PartA/newEmployeeLookup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tooltipEmployees/employees.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59768635" vertical-offset="0" max-vertical-offset="960">
+          <caret line="31" column="125" selection-start-line="31" selection-start-column="125" selection-end-line="31" selection-end-column="125" />
+          <folding>
+            <marker date="1446656119889" expanded="true" signature="1009:1095" placeholder="SELECT emp_n..employees..." />
           </folding>
         </state>
       </provider>

@@ -29,7 +29,7 @@
             require_once('dbConn.php');
             $db = getDBConnection();
 
-            $result = mysqli_query($db,"SELECT emp_no, CONCAT(first_name,' ',last_name) as full_name FROM employees limit 0,10;");
+            $result = mysqli_query($db,"SELECT emp_no, CONCAT(first_name,' ',last_name) as full_name FROM employees limit 0,50;");
             if(!$result){
                     die('Could not retrieve records from the Employees Database: ' . mysqli_error($db));
             }
