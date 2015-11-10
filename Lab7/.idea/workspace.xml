@@ -1,0 +1,1290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d51dd13-9c7e-4b84-91f3-2954c5a86bdb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/images/Sorting icons.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/images/Sorting icons.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/images/back_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/images/back_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/images/back_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/images/back_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/images/back_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/images/back_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/edit_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/images/forward_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/images/forward_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/images/forward_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/images/forward_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/images/forward_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/images/forward_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/toolTip/images/info.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tootltiptTest/images/info.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/css/smoothness/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/css/smoothness/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/css/smoothness/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/css/smoothness/images/ui-icons_2e83ff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/css/smoothness/images/ui-icons_2e83ff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/css/smoothness/images/ui-icons_2e83ff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/css/smoothness/images/ui-icons_454545_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/css/smoothness/images/ui-icons_454545_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/css/smoothness/images/ui-icons_454545_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/css/smoothness/images/ui-icons_888888_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/css/smoothness/images/ui-icons_888888_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/css/smoothness/images/ui-icons_888888_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/css/smoothness/images/ui-icons_cd0a0a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/css/smoothness/images/ui-icons_cd0a0a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/css/smoothness/images/ui-icons_cd0a0a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/.idea/AJAXGrid.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Actor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/ActorController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/ActorModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemo1Web1.0/.idea/AjaxDemo1Web1.0.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemoWeb2.0/.idea/AjaxDemoWeb2.0.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab4-Interface/Car.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/Changes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/Changes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/Changes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/.idea/JQGridonEmployee.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sept25Demo/.idea/Lab3PartA.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab4-Interface/.idea/Lab4-Interface.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartA/.idea/Lab6.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/.idea/Lab6PartB.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Lab7.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/.idea/Login.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/data/MySQLiActorDataModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/data/PDOMySQLActorDataModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SearchinAJAX/.idea/SearchinAJAX.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab4-Interface/SportsCar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sept25Demo/actionFilms.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/toolTip/actorInfo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemoWeb2.0/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartA/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartA/ajaxEmployeesLookup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemoWeb2.0/ajaxFilmLookup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/ajaxFilmLookup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/checkLogin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/.idea/dataTable.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/database_connection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../testSrt/database_connection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/dbConn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/dbConn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemo1Web1.0/dbConn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemoWeb2.0/dbConn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/dbConn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartA/dbConn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/dbConn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SearchinAJAX/dbConn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sept25Demo/dbConn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/dbConn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tootltiptTest/dbConn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemoWeb2.0/debug.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartA/debug.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/debug.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SearchinAJAX/debug.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/debug.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/deleteActor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/displayActors.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/editActor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/empDepartmentInfo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tootltiptTest/empDepartmentInfo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/employees.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/employees.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemo1Web1.0/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemoWeb2.0/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab4-Interface/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartA/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SearchinAJAX/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sept25Demo/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../testSrt/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../testSrt/filmLanguage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../testSrt/filmSelectable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../testSrt/filmSortable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/films.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/films.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/films.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/films.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/films.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/toolTip/films.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/films.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-bg1251.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-bg1251.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-bg1251.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-cat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-cat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-cat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-dk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-dk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-dk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-hr1250.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-hr1250.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-hr1250.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-kr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-kr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-kr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-mne.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-mne.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-mne.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-sr-latin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-sr-latin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-sr-latin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-tw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-tw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-tw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-ua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-ua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-ua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/i18n/grid.locale-vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/i18n/grid.locale-vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/i18n/grid.locale-vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PHP3Tier/Presentation/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/data/iActorDataModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab4-Interface/iCrashable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab4-Interface/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sept25Demo/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/insertActor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/install.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/install.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/install.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/isLoggedIn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/jquery-1.11.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/jquery-1.11.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/jquery-1.11.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/jquery-1.11.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SearchinAJAX/jquery-1.11.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/toolTip/js/jquery-1.3.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/jquery-1.3.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tootltiptTest/js/jquery-1.3.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/css/smoothness/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/css/smoothness/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/css/smoothness/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/css/smoothness/jquery-ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/css/smoothness/jquery-ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/css/smoothness/jquery-ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/css/jquery.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/css/jquery.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/js/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/js/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/css/jquery.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/css/jquery.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/js/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/js/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/css/jquery.dataTables_themeroller.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/css/jquery.dataTables_themeroller.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/jquery.jqGrid.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/jquery.jqGrid.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/jquery.jqGrid.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/js/jquery.jqGrid.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/js/jquery.jqGrid.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/jquery.jqGrid.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/toolTip/js/jquery.qtip-1.0.0-rc3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/js/jquery.qtip-1.0.0-rc3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tootltiptTest/js/jquery.qtip-1.0.0-rc3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/logout.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemo1Web1.0/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab4-Interface/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartA/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PHP3Tier/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SearchinAJAX/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sept25Demo/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tootltiptTest/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemo1Web1.0/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemoWeb2.0/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab4-Interface/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartA/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SearchinAJAX/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sept25Demo/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../testSrt/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/myCode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/myCode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/myCode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/toolTip/myCode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/myCode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/myCode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SearchinAJAX/myCode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/myCode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tootltiptTest/myCode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartA/newEmployeeLookup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartA/newEmployeeSearcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/newEmployeesNameLookup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SearchinAJAX/newEmployeesNameLookup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/newEmployeesNameSearcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SearchinAJAX/newEmployeesNameSearcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemoWeb2.0/newFilmLookup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/newFilmLookup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemoWeb2.0/newFilmSearcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/newFilmSearcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemo1Web1.0/oldFilmLookup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartA/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SearchinAJAX/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sept25Demo/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemo1Web1.0/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemoWeb2.0/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab01/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab4-Interface/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartA/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SearchinAJAX/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sept25Demo/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../testSrt/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../testSrt/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../testSrt/selectedFilm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/dataTableDemo/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/toolTip/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tootltiptTest/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/success.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/.idea/test.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../testSrt/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../testSrt/test1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../testSrt/.idea/testSrt.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/css/smoothness/theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/css/smoothness/theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/css/smoothness/theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemo/css/ui.jqgrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/jqGridDemoJSON/css/ui.jqgrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/css/ui.jqgrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemo1Web1.0/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AjaxDemoWeb2.0/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab4-Interface/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartA/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SearchinAJAX/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sept25Demo/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../testSrt/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AJAXGrid/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JQGridonEmployee/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab4-Interface/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lab6PartB/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Login/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SearchinAJAX/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sept25Demo/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataTable/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab5/Data/db/sakila.sqlite" afterPath="$PROJECT_DIR$/../Lab5/Data/db/sakila.sqlite" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab1PartB/MixPHPHTML.php" afterPath="$PROJECT_DIR$/../Lab1PartB/MixPHPHTML.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab5/Data/aDataAccess.php" afterPath="$PROJECT_DIR$/../Lab5/Data/aDataAccess.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab3PartA/actionFilms.php" afterPath="$PROJECT_DIR$/../Lab3PartA/actionFilms.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab6/tooltipEmployees/employees.php" afterPath="$PROJECT_DIR$/../Lab6/tooltipEmployees/employees.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment1/index.php" afterPath="$PROJECT_DIR$/../Assignment1/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab2PartC/processPOSTForm.php" afterPath="$PROJECT_DIR$/../Lab2PartC/processPOSTForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab2PartA/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lab2PartA/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab3PartB/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lab3PartB/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab3PartC/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lab3PartC/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab5/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lab5/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" />
+    </list>
+    <ignored path="Lab7.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ComposerSettings">
+    <pharPath>/usr/local/bin/composer</pharPath>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Lab7" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ActorModel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/ActorModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="995" max-vertical-offset="1530">
+              <caret line="82" column="51" selection-start-line="82" selection-start-column="51" selection-end-line="82" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PDOMySQLActorDataModel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/data/PDOMySQLActorDataModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="2640">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding>
+                <marker date="1447180148640" expanded="true" signature="1019:1068" placeholder="SELECT actor..actor..." />
+                <marker date="1447180148640" expanded="true" signature="1019:1069" placeholder="SELECT * FRO..actor..." />
+                <marker date="1447180148640" expanded="true" signature="1019:1071" placeholder="SELECT * FRO..customer..." />
+                <marker date="1447180148640" expanded="true" signature="1682:1731" placeholder="SELECT actor..actor..." />
+                <marker date="1447180148640" expanded="true" signature="3409:3426" placeholder="DELETE FROM ..." />
+                <marker date="1447180148640" expanded="true" signature="3409:3427" placeholder="DELETE FROM ..." />
+                <marker date="1447180148640" expanded="true" signature="3409:3458" placeholder="DELETE FROM ..." />
+                <marker date="1447180148640" expanded="true" signature="4017:4048" placeholder="SELECT MAX(a..actor..." />
+                <marker date="1447180148640" expanded="true" signature="4219:4304" placeholder="INSERT INTO ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Actor.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/Actor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="750">
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="displayActors.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/displayActors.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1110">
+              <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insertActor.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/insertActor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="600">
+              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editActor.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/editActor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="600">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deleteActor.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/deleteActor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="420">
+              <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iActorDataModel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/data/iActorDataModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="525">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="570">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActorController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controller/ActorController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.44227886" vertical-offset="155" max-vertical-offset="1395">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/model/Customer.php" />
+        <option value="$PROJECT_DIR$/model/data/iCustomerDataModel.php" />
+        <option value="$PROJECT_DIR$/model/data/MySQLiCustomerDataModel.php" />
+        <option value="$PROJECT_DIR$/model/data/MySQLiActorDataModel.php" />
+        <option value="$PROJECT_DIR$/model/Film.php" />
+        <option value="$PROJECT_DIR$/model/FilmActor.php" />
+        <option value="$PROJECT_DIR$/view/editActor.php" />
+        <option value="$PROJECT_DIR$/model/data/iActorDataModel.php" />
+        <option value="$PROJECT_DIR$/model/Actor.php" />
+        <option value="$PROJECT_DIR$/view/deleteActor.php" />
+        <option value="$PROJECT_DIR$/view/insertActor.php" />
+        <option value="$PROJECT_DIR$/model/data/PDOMySQLActorDataModel.php" />
+        <option value="$PROJECT_DIR$/model/ActorModel.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/controller/ActorController.php" />
+        <option value="$PROJECT_DIR$/view/displayActors.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpDebugGeneral" xdebug_force_break_when_no_path_mapping="false" xdebug_force_break_when_outside_project="false" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" name="localhost" port="8080" />
+      <server host="localhost" name="localhost (1)" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/public" remote-root="/usr/share/phpMyAdmin" />
+        </path_mappings>
+      </server>
+      <server host="PhpStorm 8.0.3" name="PhpStorm 8.0.3" port="63342" />
+      <server host="PhpStorm 8.0.3" name="PhpStorm 8.0.3 (1)" port="63343" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="y" value="28" />
+    <option name="width" value="1442" />
+    <option name="height" value="840" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="terminal" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/view" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Built-in Web Server.BI">
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BI" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/public" port="8080">
+      <CommandLine workingDirectory="$PROJECT_DIR$/public" />
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Built-in Web Server.BI" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d51dd13-9c7e-4b84-91f3-2954c5a86bdb" name="Default" comment="" />
+      <created>1447099030975</created>
+      <option name="number" value="Default" />
+      <updated>1447099030975</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="28" width="1442" height="840" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2732475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282123" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3980447" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/model/data/PDOMySQLActorDataModel.php</url>
+          <line>40</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/controller/ActorController.php</url>
+          <line>56</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/public/index.php</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/view/displayActors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1110">
+          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/insertActor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="600">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/editActor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="600">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/deleteActor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="420">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/data/iActorDataModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="525">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="570">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/ActorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1395">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/ActorModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1254" max-vertical-offset="1695">
+          <caret line="102" column="36" selection-start-line="102" selection-start-column="36" selection-end-line="102" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/data/PDOMySQLActorDataModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="429" max-vertical-offset="2565">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <marker date="1447180148640" expanded="true" signature="1019:1068" placeholder="SELECT actor..actor..." />
+            <marker date="1447180148640" expanded="true" signature="1019:1069" placeholder="SELECT * FRO..actor..." />
+            <marker date="1447180148640" expanded="true" signature="1019:1071" placeholder="SELECT * FRO..customer..." />
+            <marker date="1447180148640" expanded="true" signature="1682:1731" placeholder="SELECT actor..actor..." />
+            <marker date="1447180148640" expanded="true" signature="3409:3426" placeholder="DELETE FROM ..." />
+            <marker date="1447180148640" expanded="true" signature="3409:3427" placeholder="DELETE FROM ..." />
+            <marker date="1447180148640" expanded="true" signature="3409:3458" placeholder="DELETE FROM ..." />
+            <marker date="1447180148640" expanded="true" signature="4017:4048" placeholder="SELECT MAX(a..actor..." />
+            <marker date="1447180148640" expanded="true" signature="4219:4304" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Actor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="990">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/displayActors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="638" max-vertical-offset="1170">
+          <caret line="57" column="69" selection-start-line="57" selection-start-column="69" selection-end-line="57" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/deleteActor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="420">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/data/iActorDataModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="600">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/ActorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="1095">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/ActorModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="1560">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/data/PDOMySQLActorDataModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2370">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1447180148640" expanded="true" signature="1019:1068" placeholder="SELECT actor..actor..." />
+            <marker date="1447180148640" expanded="true" signature="1019:1069" placeholder="SELECT * FRO..actor..." />
+            <marker date="1447180148640" expanded="true" signature="1019:1071" placeholder="SELECT * FRO..customer..." />
+            <marker date="1447180148640" expanded="true" signature="1682:1731" placeholder="SELECT actor..actor..." />
+            <marker date="1447180148640" expanded="true" signature="3409:3426" placeholder="DELETE FROM ..." />
+            <marker date="1447180148640" expanded="true" signature="3409:3427" placeholder="DELETE FROM ..." />
+            <marker date="1447180148640" expanded="true" signature="3409:3458" placeholder="DELETE FROM ..." />
+            <marker date="1447180148640" expanded="true" signature="4017:4048" placeholder="SELECT MAX(a..actor..." />
+            <marker date="1447180148640" expanded="true" signature="4219:4304" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Actor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="990">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/displayActors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="415" max-vertical-offset="1080">
+          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/data/iActorDataModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="600">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/data/MySQLiActorDataModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1755">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/ActorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="795">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/ActorModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1440">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/data/PDOMySQLActorDataModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2265">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1447180148640" expanded="true" signature="1019:1068" placeholder="SELECT actor..actor..." />
+            <marker date="1447180148640" expanded="true" signature="1019:1069" placeholder="SELECT * FRO..actor..." />
+            <marker date="1447180148640" expanded="true" signature="1019:1071" placeholder="SELECT * FRO..customer..." />
+            <marker date="1447180148640" expanded="true" signature="1682:1731" placeholder="SELECT actor..actor..." />
+            <marker date="1447180148640" expanded="true" signature="3409:3426" placeholder="DELETE FROM ..." />
+            <marker date="1447180148640" expanded="true" signature="3409:3427" placeholder="DELETE FROM ..." />
+            <marker date="1447180148640" expanded="true" signature="3409:3458" placeholder="DELETE FROM ..." />
+            <marker date="1447180148640" expanded="true" signature="4017:4048" placeholder="SELECT MAX(a..actor..." />
+            <marker date="1447180148640" expanded="true" signature="4219:4304" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Actor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="885">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/data/iActorDataModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="600">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/data/MySQLiActorDataModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1324" max-vertical-offset="1755">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/displayActors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="487" max-vertical-offset="1095">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="375">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/editActor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="600">
+          <caret line="15" column="77" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/ActorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="795">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/ActorModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1440">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Actor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="885">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/data/iActorDataModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="600">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/data/MySQLiActorDataModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1087" max-vertical-offset="1755">
+          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/displayActors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="487" max-vertical-offset="1095">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/editActor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="600">
+          <caret line="15" column="77" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/data/MySQLiActorDataModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1755">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/edit_icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/data/iActorDataModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="525">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/editActor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="600">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/deleteActor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="420">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Actor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="750">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/ActorModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="995" max-vertical-offset="1530">
+          <caret line="82" column="51" selection-start-line="82" selection-start-column="51" selection-end-line="82" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/insertActor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="600">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/displayActors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1110">
+          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/data/PDOMySQLActorDataModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="2640">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <marker date="1447180148640" expanded="true" signature="1019:1068" placeholder="SELECT actor..actor..." />
+            <marker date="1447180148640" expanded="true" signature="1019:1069" placeholder="SELECT * FRO..actor..." />
+            <marker date="1447180148640" expanded="true" signature="1019:1071" placeholder="SELECT * FRO..customer..." />
+            <marker date="1447180148640" expanded="true" signature="1682:1731" placeholder="SELECT actor..actor..." />
+            <marker date="1447180148640" expanded="true" signature="3409:3426" placeholder="DELETE FROM ..." />
+            <marker date="1447180148640" expanded="true" signature="3409:3427" placeholder="DELETE FROM ..." />
+            <marker date="1447180148640" expanded="true" signature="3409:3458" placeholder="DELETE FROM ..." />
+            <marker date="1447180148640" expanded="true" signature="4017:4048" placeholder="SELECT MAX(a..actor..." />
+            <marker date="1447180148640" expanded="true" signature="4219:4304" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="570">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/ActorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44227886" vertical-offset="155" max-vertical-offset="1395">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
