@@ -60,13 +60,8 @@ class ActorController
         include '../view/displayActors.php';
     }
 
-    public function commitInsertAction($actorId,$firstName, $lastName)
+    public function commitInsertAction($firstName, $lastName)
     {
-        //$currentActor = $this->model->getAllActors();
-
-        //$currentActor->setFirstName($firstName);
-        //$currentActor->setLastName($lastName);
-
         $lastOperationResults = $this->model->insertActor($firstName, $lastName);
 
         $arrayOfActors = $this->model->getAllActors();
