@@ -6,16 +6,17 @@ and open the template in the editor.
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <?php include('bootstrap.php');?>
         <title>Delete Actor</title>
     </head>
     <body>
-        <h1>Delete Actor:</h1>
-        <form id="formDelete" name="formDelete" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-            <p><label>Actor ID:<input type="text" readonly="readonly" name="deleteActorId" id="deleteActorId" value="<?php echo $currentActor->getID();?>"/>
-                </label>  
-            </p>
+        <h1 style="width:500px;margin-left:100px">Delete Actor:</h1>
+        <form id="formDelete" name="formDelete" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>"  style="width:500px;margin-left:100px">
+            <div class="form-group"><label>Actor ID:</label><input type="text" class="form-control" readonly="readonly" name="deleteActorId" id="deleteActorId" value="<?php echo $currentActor->getID();?>"/>
 
-                <input type="submit" name="DeleteBtn" id="DeleteBtn" value="Delete" onclick="return confirm('Really Delete?')"/>
+            </div>
+
+                <input type="submit" name="DeleteBtn" id="DeleteBtn" class="btn btn-primary" value="Delete" onclick="return confirm('Really Delete?')"/>
             </p>
         </form>
     </body>

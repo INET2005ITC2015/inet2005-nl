@@ -6,39 +6,33 @@ and open the template in the editor.
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Actors</title>
-        <style type="text/css">
-            table
-            {
-               border: 1px solid purple;
-            }
-            th, td
-            {
-               border: 1px solid red;
-            }
-        </style>
+        <?php include('bootstrap.php');?>
     </head>
     <body>
-    <?php $query='';
-    if(!empty($_POST['query'])) {
-        $query = $_POST['query'];
-    }?>
-    <form action="<?php echo $_SERVER['PHP_SELF']; ?>"  method="post" name="searchname">
-        <legend><h2>Enter Text to Search:</h2></legend>
-        <p><input type='text' name='query' value="<?php echo $query ?>"/></p>
-        <p><input type='submit' value='Search Name' /></p>
+    <?php
+        $query='';
+        if(!empty($_POST['query'])) {
+            $query = $_POST['query'];
+        }
+    ?>
+    <h2 style="width:500px;margin-left:100px">Enter Text to Search:</h2>
+    <form action="<?php echo $_SERVER['PHP_SELF']; ?>"  method="post" name="searchname" style="width:500px;margin-left:100px">
+        <div class="form-group">
+            <p><input type='text' name='query' class="form-control" value="<?php echo $query ?>"/></p>
+        </div>
+        <p><input type='submit' class="btn btn-primary" value='Search Name' /></p>
 
     </form>
         <?php
             if(!empty($lastOperationResults)):
         ?>
-        <h2><?php echo $lastOperationResults; ?></h2>
+        <h2 style="margin-left:100px"><?php echo $lastOperationResults; ?></h2>
         <?php
             endif;
         ?>
 
-        <h1>Current Actor:</h1>
-        <table>
+        <h1 style="margin-left:100px">Current Actor:</h1>
+        <table class="table table-striped table-bordered table-condensed" style="width:500px;margin-left:100px">
             <thead>
                 <tr>
                     <th>Actor ID</th>
@@ -76,8 +70,8 @@ and open the template in the editor.
             <tfoot></tfoot>
         </table>
         <hr>
-        <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-            <input value="Insert Into the Actor" type="submit" name="InsertBtn"/>
+        <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" style="width:500px;margin-left:100px">
+            <input value= "Insert Into the Actor" class="btn btn-primary"  type="submit" name="InsertBtn"/>
         </form>
     </body>
 </html>
