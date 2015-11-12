@@ -20,11 +20,10 @@ class ActorController
 
     public function insertAction()
     {
-
         include '../view/insertActor.php';
     }
 
-//$actorController->commitInsertAction(strtoupper($_POST['firstName']),strtoupper($_POST['lastName']));
+
     public function updateAction($actorID)
     {
         $currentActor = $this->model->getActor($actorID);
@@ -61,11 +60,12 @@ class ActorController
         include '../view/displayActors.php';
     }
 
-    public function commitInsertAction($firstName, $lastName)
+    public function commitInsertAction($actorId,$firstName, $lastName)
     {
-        $lastOperationResults = "";
+        //$currentActor = $this->model->getAllActors();
 
-        //$currentActor = $this->model->getActor($actorID);
+        //$currentActor->setFirstName($firstName);
+        //$currentActor->setLastName($lastName);
 
         $lastOperationResults = $this->model->insertActor($firstName, $lastName);
 
@@ -81,7 +81,12 @@ class ActorController
         include '../view/deleteActor.php';
     }
 
+    public function searchAction($searchString)
+    {
+       $arrayOfActors = $this->model->getActorForSearch($searchString);
+
+        include '../view/displayActors.php';
+    }
+
 
 }
-
-?>

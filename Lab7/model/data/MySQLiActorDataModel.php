@@ -30,8 +30,7 @@ class MySQLiActorDataModel implements iActorDataModel
     public function selectActors()
     {
        $selectStatement = "SELECT * FROM actor ";
-       $selectStatement .= " LEFT JOIN address ON customer.address_id = address.address_id";
-       $selectStatement .= " LIMIT 0,10;";
+       $selectStatement .= " order by actor_id desc LIMIT 0,10;";
        $this->result = @$this->dbConnection->query($selectStatement);
        if(!$this->result)
        {
@@ -44,14 +43,25 @@ class MySQLiActorDataModel implements iActorDataModel
     public function selectActorById($actorID)
     {
        $selectStatement = "SELECT * FROM actor";
-       $selectStatement .= " LEFT JOIN address ON aActor.address_id = address.address_id";
-       $selectStatement .= " WHERE actor.actor_id = $actorID;";
+       $selectStatement .= " WHERE actor_id = $actorID;";
        $this->result = @$this->dbConnection->query($selectStatement);
        if(!$this->result)
        {
                die('Could not retrieve records from the Sakila Database: ' .
                        $this->dbConnection->error);
        }
+    }
+
+    public function selectActorForSearch($searchString)
+    {
+        $selectStatement = "SELECT * FROM actor WHERE first_name LIKE  '%$searchString%' OR last_name LIKE '%$searchString%' ";
+        $selectStatement .= "  ORDER BY actor_id DESC LIMIT 0, 10;";
+        $this->result = @$this->dbConnection->query($selectStatement);
+        if(!$this->result)
+        {
+            die('Could not retrieve records from the Sakila Database: ' .
+                $this->dbConnection->error);
+        }
     }
     
 
@@ -79,7 +89,35 @@ class MySQLiActorDataModel implements iActorDataModel
        
        return $this->dbConnection->affected_rows;
     }
-    
+
+    public function deleteActor($actorID)
+    {
+        $deleteStatement = " DELETE FROM actor ";
+        $deleteStatement .= " WHERE actor_id = $actorID;";
+        $this->result = @$this->dbConnection->query($deleteStatement);
+        if(!$this->result)
+        {
+            die('Could not update records in the Sakila Database: ' .
+                $this->dbConnection->error);
+        }
+
+        return $this->dbConnection->affected_rows;
+    }
+
+    public function insertActor($firstName, $lastName)
+    {
+        $insertStatement = "INSERT INTO actor(first_name,last_name) VALUES('$firstName','$lastName');";
+        $this->result = @$this->dbConnection->query($insertStatement);
+        if(!$this->result)
+        {
+            die('Could not update records in the Sakila Database: ' .
+                $this->dbConnection->error);
+        }
+
+        return $this->dbConnection->affected_rows;
+    }
+
+
     public function fetchActorID($row)
     {
        return $row['actor_id'];
@@ -95,20 +133,7 @@ class MySQLiActorDataModel implements iActorDataModel
        return $row['last_name'];
     }
     
-    public function fetchAddressID($row)
-    {
-        return $row['address_id'];
-    }
 
-    public function fetchAddress1($row)
-    {
-        return $row['address'];
-    }
-
-    public function fetchAddress2($row)
-    {
-        return $row['address2'];
-    }
 }
 
-?>
+

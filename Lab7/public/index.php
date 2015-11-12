@@ -25,6 +25,16 @@ elseif (isset($_POST['InsertBtn']))
     $actorController->insertAction();
 
 }
+elseif (isset($_POST['query']))
+{
+    $actorController->searchAction($_POST['query']);
+
+}
+elseif (isset($_POST['insert']))
+{
+    $actorController->commitInsertAction(null, strtoupper($_POST['firstName']),strtoupper($_POST['lastName']));
+
+}
 else
 {
     $actorController->displayAction();

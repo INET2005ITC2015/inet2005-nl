@@ -14,9 +14,15 @@ interface iActorDataModel
     
     public function selectActorById($actorID);
 
+    public function selectActorForSearch($searchString);
+
     public function fetchActors();
     
     public function updateActor($actorID,$first_name,$last_name);
+
+    public function deleteActor($actorID);
+
+    public function insertActor($first_name,$last_name);
 
     // field access functions
     public function fetchActorID($row);

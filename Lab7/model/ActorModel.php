@@ -1,8 +1,8 @@
 <?php
 
 require_once '../model/Actor.php';
-//require_once '../model/data/MySQLiActorDataModel.php';
-require_once '../model/data/PDOMySQLActorDataModel.php';
+require_once '../model/data/MySQLiActorDataModel.php';
+//require_once '../model/data/PDOMySQLActorDataModel.php';
 
 class ActorModel
 {
@@ -10,15 +10,15 @@ class ActorModel
     
     public function __construct()
     {
-        //$this->m_DataAccess = new MySQLiActorDataModel();
-        $this->m_DataAccess = new PDOMySQLActorDataModel();
+        $this->m_DataAccess = new MySQLiActorDataModel();
+        //$this->m_DataAccess = new PDOMySQLActorDataModel();
     }
     
     public function __destruct()
     {
         // not doing anything at the moment
     }
-            
+
     public function getAllActors()
     {
         $this->m_DataAccess->connectToDB();
@@ -40,7 +40,7 @@ class ActorModel
         
         return $arrayOfActorObjects;
     }
-    
+
     public function getActor($actorID)
     {
         $this->m_DataAccess->connectToDB();
@@ -60,6 +60,28 @@ class ActorModel
         
         return $fetchedActor;
     }
+
+    public function getActorForSearch($searchString)
+    {
+        $this->m_DataAccess->connectToDB();
+
+        $arrayOfActorObjects = array();
+
+        $this->m_DataAccess->selectActorForSearch($searchString);
+
+        while($row =  $this->m_DataAccess->fetchActors())
+        {
+            $currentActor = new Actor($this->m_DataAccess->fetchActorID($row),
+                $this->m_DataAccess->fetchActorFirstName($row),
+                $this->m_DataAccess->fetchActorLastName($row));
+
+            $arrayOfActorObjects[] = $currentActor;
+        }
+
+        $this->m_DataAccess->closeDB();
+
+        return $arrayOfActorObjects;
+    }
     
     public function updateActor($ActorToUpdate)
     {
@@ -72,13 +94,11 @@ class ActorModel
         return "$recordsAffected record(s) updated successfully!";
     }
 
-    public function insertActor($ActorToInsert)
+    public function insertActor($firstName, $lastName)
     {
         $this->m_DataAccess->connectToDB();
 
-        $recordsAffected = $this->m_DataAccess->insertActor(null,
-            $ActorToInsert->getFirstName(),
-            $ActorToInsert->getLastName());
+        $recordsAffected = $this->m_DataAccess->insertActor($firstName,$lastName);
 
         return "$recordsAffected record(s) Inserted successfully!";
     }

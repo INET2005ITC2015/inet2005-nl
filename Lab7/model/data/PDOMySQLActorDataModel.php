@@ -55,7 +55,7 @@ class PDOMySQLActorDataModel implements iActorDataModel
         }
 
     }
-    
+
     public function selectActorById($actorID)
     {
 
@@ -88,7 +88,18 @@ class PDOMySQLActorDataModel implements iActorDataModel
             die('Could not retrieve from Sakila Database via PDO: ' . $ex->getMessage());
         }
     }
-    
+    public function selectActorForSearch($searchString)
+    {
+        try {
+            $searchString = "%" . $searchString . "%";
+            $this->stmt = $this->dbConnection->prepare('SELECT * FROM actor WHERE first_name LIKE :searchString OR last_name LIKE :searchString ORDER BY actor_id DESC LIMIT 0, 10');
+            $this->stmt->bindParam(':searchString', $searchString, PDO::PARAM_STR);
+            $this->stmt->execute();
+        } catch (PDOException $ex) {
+            die('Could not select records from SQLite Database via PDO: ' . $ex->getMessage());
+        }
+    }
+
     public function updateActor($actorID,$first_name,$last_name)
     {
         $updateStatement = "UPDATE actor";
@@ -131,17 +142,13 @@ class PDOMySQLActorDataModel implements iActorDataModel
 
     public function insertActor($firstName, $lastName)
     {
+
+        $insertStatement = 'INSERT INTO actor(first_name,last_name) VALUES(:firstName, :lastName)';
         try
         {
-            $this->stmt = $this->dbConnection->prepare('SELECT MAX(actor_id) FROM actor');
-            $this->stmt->execute();
-            $row =  $this->stmt->fetch();
-            $row = $row[0] + 1;
-
-            $this->stmt = $this->dbConnection->prepare('INSERT INTO actor(actor_id, first_name,last_name) VALUES(:row, :firstName, :lastName)');
+            $this->stmt = $this->dbConnection->prepare($insertStatement);
             $this->stmt->bindParam(':firstName', $firstName, PDO::PARAM_STR);
             $this->stmt->bindParam(':lastName', $lastName, PDO::PARAM_STR);
-            $this->stmt->bindParam(':row', $row, PDO::PARAM_INT);
             $this->stmt->execute();
 
             return $this->stmt->rowCount();

@@ -9,26 +9,11 @@ and open the template in the editor.
         <title>Insert into the Actor</title>
     </head>
     <body>
-        <h1>Edit Actor:</h1>
+        <h1>Insert Into Actor:</h1>
         <form id="formInsert" name="formInsert" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-            <p>    
-		<label>Actor ID:
-                    <input type="text" 	readonly="readonly" name="insertActorId" id="insertActorId" value="<?php echo $currentActor->getID();?>"/>
-                </label>  
-            </p>
-            <p>    
-		<label>First Name: 
-                    <input type="text" name="firstName" id="firstName">
-                </label>  
-            </p>  
-            <p>    
-		<label>Last Name:
-                    <input type="text" name="lastName" id="lastName" />
-                </label>  
-            </p>  
-            <p> 
-                <input type="submit" name="InsertBtn" id="InsertBtn" value="Insert" onclick="return confirm('Really Update?')"/>
-            </p>
+            <p><label>First Name: <input type="text" name="firstName" id="firstName" /> </label> </p>
+            <p><label>Last Name : <input type="text" name="lastName" id="lastName" /></label>  </p>
+            <p> <input type="submit" name="insert" id="submit" value="Submit" onclick="return confirm('Really Insert?')" /></p>
         </form>
     </body>
 </html>

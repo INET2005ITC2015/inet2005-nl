@@ -19,6 +19,16 @@ and open the template in the editor.
         </style>
     </head>
     <body>
+    <?php $query='';
+    if(!empty($_POST['query'])) {
+        $query = $_POST['query'];
+    }?>
+    <form action="<?php echo $_SERVER['PHP_SELF']; ?>"  method="post" name="searchname">
+        <legend><h2>Enter Text to Search:</h2></legend>
+        <p><input type='text' name='query' value="<?php echo $query ?>"/></p>
+        <p><input type='submit' value='Search Name' /></p>
+
+    </form>
         <?php
             if(!empty($lastOperationResults)):
         ?>
@@ -26,6 +36,7 @@ and open the template in the editor.
         <?php
             endif;
         ?>
+
         <h1>Current Actor:</h1>
         <table>
             <thead>
@@ -39,7 +50,8 @@ and open the template in the editor.
             </thead>
             <tbody>
                 <?php
-                    foreach($arrayOfActors as $actor):
+
+                foreach($arrayOfActors as $actor):
                         
                     ?>
                         <tr>
@@ -63,6 +75,9 @@ and open the template in the editor.
             </tbody>
             <tfoot></tfoot>
         </table>
-        <p><button type="submit" name="InsertBtn" id="InsertBtn">Insert Into Actor</button></p>
+        <hr>
+        <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+            <input value="Insert Into the Actor" type="submit" name="InsertBtn"/>
+        </form>
     </body>
 </html>
