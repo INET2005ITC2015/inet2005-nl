@@ -54,8 +54,17 @@
 	</nav>
 
     <div class="container">
+        @include ('flash::message')
+
 	    @yield('content')
     </div>
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>
+        $('#flash-overlay-modal').modal();
+
+        //$('div.alert').not('.alert-important').delay(3000).slideUp(300);
+    </script>
 
 	<!-- Scripts -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>

@@ -14,3 +14,7 @@ Route::get('contact','PagesController@contact');
 
 Route::resource('articles', 'ArticlesController');
 
+
+Route::get('foo',['middleware'=> ['auth', 'manager'] , function(){
+    return 'This page is only viewable to the Manager';
+}]);

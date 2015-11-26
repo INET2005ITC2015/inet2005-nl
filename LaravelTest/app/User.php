@@ -26,9 +26,19 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 
 	/**
 	 * The attributes excluded from the model's JSON form.
-	 *
+	 * A user can have many articles
 	 * @var array
 	 */
 	protected $hidden = ['password', 'remember_token'];
+
+    public function articles(){
+
+        return $this->hasMany('App\Article');
+    }
+
+
+    public function isATeamManager(){
+        return true;
+    }
 
 }
