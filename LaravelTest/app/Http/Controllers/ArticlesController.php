@@ -18,7 +18,7 @@ class ArticlesController extends Controller {
 	public function index()
     {
         $articles = Article::latest('published_at')->published()->get();
-        //$articles = Article::latest('published_at')->get();
+        //$latest =
         return view('articles.index', compact('articles'));
     }
 
@@ -40,11 +40,9 @@ class ArticlesController extends Controller {
 
     public function store(ArticleRequest $request){
 
-        $article = \Auth::user()->articles()->create($request->all());
+       $this->createArticle($request);
 
-        $article->tags()->attach($request->input('tags'));
-
-        flash()->success('You are now logged in!');
+       flash()->success('You are now logged in!');
 
         //flash()->overlay('Your article has been successfully created', 'Good Job!');
         //Article::create($request->all());
@@ -72,7 +70,26 @@ class ArticlesController extends Controller {
 
         $article->update($request->all());
 
+        $this->syncTags($article,$request->input('tag_list'));
+
         return redirect('articles');
+    }
+
+    private function createArticle(ArticleRequest $request){
+
+        $article = \Auth::user()->articles()->create($request->all());
+
+        $this->syncTags($article,$request->input('tag_list'));
+
+
+        return $article;
+    }
+
+    private function syncTags(Article $article, array $tags){
+
+        $article->tags()->sync($tags);
+
+        return $article;
     }
 
 }

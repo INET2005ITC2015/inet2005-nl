@@ -36,4 +36,11 @@ class AuthController extends Controller {
 		$this->middleware('guest', ['except' => 'getLogout']);
 	}
 
+    public function getLogout()
+    {
+        $this->auth->logout();
+        \Session::flush();
+        return redirect('/');
+    }
+
 }
