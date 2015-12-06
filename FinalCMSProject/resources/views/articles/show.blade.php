@@ -2,11 +2,26 @@
 
 @section('content')
 
-    <h1>{{$article->title}}</h1>
+    <h1>Title: {{$article->title}}</h1>
+    <h3>Alias: {{$article->alias}}</h3>
+    <article>Description: {{$article->description}}</article>
 
-    <article>
-      {{$article->description}}
+    <article>Area:
+        @foreach($article->contentareas as $contentArea)
+            {{$contentArea->title}}
+        @endforeach
     </article>
+
+    <div>Page:
+        @foreach($article->pages as $page)
+            {{$page->title}}
+        @endforeach
+    </div>
+
+    <article>Created By: </article>
+    <article>Modified By: </article>
+    <article>Created At: {{$article->created_at}}</article>
+    <article>Modified At: {{$article->updated_at}}</article>
 
     <a href="{{ route('articles.edit', $article->id) }}" class="btn btn-primary">Edit Article</a>
     <div class="col-md-6 text-right">

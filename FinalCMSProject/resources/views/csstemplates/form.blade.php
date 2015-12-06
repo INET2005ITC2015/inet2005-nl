@@ -23,10 +23,4 @@
     {!!Form::submit($submitButtonText, ['class' => 'btn btn-primary form-control'])!!}
 </div>
 
-@section('footer')
-    <script>
-        $('select').select2({
-        });
-
-    </script>
 @endsection

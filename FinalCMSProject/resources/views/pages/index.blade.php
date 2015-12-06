@@ -16,9 +16,14 @@
             <h3>Alias: {{$page->alias}}</h3>
 
             <div class="description">{{$page->description}}</div>
-            <div>
-
+            @unless($page->articles->isEmpty())
+            <div>Assigned Articles:
+                <ul>@foreach($page->articles as $article)
+                        <li>{{$article->title}} on {{$article->contentAreas()->title}}</li>
+                    @endforeach
+                </ul>
             </div>
+            @endunless
 
         </article>
     @endforeach
