@@ -1,9 +1,19 @@
-@extends('app')
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
 
-@section('content')
-
-    <h3>Main Site Developed in Laravel</h3>
+    <title>Main Site</title>
+</head>
+<body>
+<div class="container" style="margin-left:100px ">
     @foreach($pages as $page)
-        <h4><div><a href="#">{{$page->title}}</a></div></h4>
+        <h4><a href="#">{{$page->title}}</a></h4>
+
+
     @endforeach
-@stop
+</div>
+</body>
+</html>
+
+

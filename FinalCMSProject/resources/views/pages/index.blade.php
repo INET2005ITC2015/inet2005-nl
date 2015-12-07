@@ -19,7 +19,7 @@
             @unless($page->articles->isEmpty())
             <div>Assigned Articles:
                 <ul>@foreach($page->articles as $article)
-                        <li>{{$article->title}} on {{$article->contentAreas()->title}}</li>
+                        <li>{{$article->title}}</li>
                     @endforeach
                 </ul>
             </div>

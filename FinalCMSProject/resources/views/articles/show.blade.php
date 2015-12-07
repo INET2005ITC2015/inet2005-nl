@@ -5,7 +5,13 @@
     <h1>Title: {{$article->title}}</h1>
     <h3>Alias: {{$article->alias}}</h3>
     <article>Description: {{$article->description}}</article>
-
+    <div>@if($article->all_pages == 1)
+            All Pages: Yes
+        @endif
+        @if($article->all_pages == 0)
+            All Pages: No
+        @endif
+    </div>
     <article>Area:
         @foreach($article->contentareas as $contentArea)
             {{$contentArea->title}}

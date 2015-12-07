@@ -18,6 +18,22 @@
             <div class="description">Description: {{$contentArea->description}}</div>
             <div> Display Order: {{$contentArea->display_order}}</div>
 
+            @unless($contentArea->articles->isEmpty())
+                <div>Assigned Articles:
+                    <ul>@foreach($contentArea->articles as $article)
+                            <li>{{$article->title}}</li>
+                        @endforeach
+                    </ul>
+            </div>
+                @unless($article->pages->isEmpty())
+                    <div>Assigned Pages:
+                        <ul>@foreach($article->pages as $page)
+                                <li>{{$page->title}}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endunless
+            @endunless
         </article>
     @endforeach
 @stop

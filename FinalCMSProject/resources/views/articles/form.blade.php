@@ -16,7 +16,7 @@
 
 <div class="form-group">
     {!!Form::label('all_pages', 'All Pages:') !!}
-    {!!Form::select('all_pages', ['Yes', 'No'], null, ['class' => 'form-control']) !!}
+    {!!Form::select('all_pages',  ['0' => 'No', '1' => 'Yes'], null, ['class' => 'form-control']) !!}
 </div>
 
 <div class="form-group">

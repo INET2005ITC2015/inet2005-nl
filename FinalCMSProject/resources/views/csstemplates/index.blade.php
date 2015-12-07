@@ -16,7 +16,15 @@
             <h3>Alias: {{$cssTemplate->alias}}</h3>
 
             <div class="description">Description: {{$cssTemplate->description}}</div>
-            <div> Active Status: {{$cssTemplate->active}}</div>
+            <div> @if($cssTemplate->active == 1)
+                    Active: Yes
+                @endif
+                @if($cssTemplate->active == 0)
+                    Active: No
+                @endif
+            </div>
+            <div>CSS Content: {{$cssTemplate->css_content}}</div>
+
 
         </article>
     @endforeach

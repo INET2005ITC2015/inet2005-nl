@@ -9,7 +9,13 @@
     <article>
         {{$cssTemplate->description}}
     </article>
-    <div> Active Status: {{$cssTemplate->active}}</div>
+    <div> @if($cssTemplate->active == 1)
+        Active: Yes
+    @endif
+    @if($cssTemplate->active == 0)
+        Active: No
+        @endif
+    </div>
     <br/><br/>
     <a href="{{ route('csstemplates.edit', $cssTemplate->id) }}" class="btn btn-primary">Edit This Template</a>
     <div class="col-md-6 text-right">

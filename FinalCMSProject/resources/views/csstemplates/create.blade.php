@@ -2,11 +2,11 @@
 
 @section('content')
 
-    <h1>Create a New CSS Template</h1>
+    <h1>Create a CSS Template</h1>
 
     <hr/>
     {!!Form::open(['url'=> 'csstemplates'])!!}
-    @include('csstemplates.form',['submitButtonText'=> 'Add a CSS Template'])
+    @include('csstemplates.form',['submitButtonText'=> 'Add a Template'])
     {!!Form::close()!!}
 
     @include('errors.list')
