@@ -24,16 +24,18 @@
                             <li>{{$article->title}}</li>
                         @endforeach
                     </ul>
+                    @unless($article->pages->isEmpty())
+                        <div>Assigned Pages:
+                            <ul>@foreach($article->pages as $page)
+                                    <li>{{$page->title}}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endunless
             </div>
-                @unless($article->pages->isEmpty())
-                    <div>Assigned Pages:
-                        <ul>@foreach($article->pages as $page)
-                                <li>{{$page->title}}</li>
-                            @endforeach
-                        </ul>
-                    </div>
-                @endunless
+
             @endunless
+
         </article>
     @endforeach
 @stop

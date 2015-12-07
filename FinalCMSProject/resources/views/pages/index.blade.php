@@ -24,7 +24,15 @@
                 </ul>
             </div>
             @endunless
+            @unless($article->contentAreas->isEmpty())
+            <div>Area:
+                <ul>@foreach($article->contentAreas as $contentArea)
+                        <li>{{$contentArea->title}}</li>
+                    @endforeach
+                </ul>
 
+            </div>
+            @endunless
         </article>
     @endforeach
 @stop
