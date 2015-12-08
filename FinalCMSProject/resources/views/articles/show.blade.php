@@ -12,11 +12,13 @@
             All Pages: No
         @endif
     </div>
+    @unless($article->contentareas->isEmpty())
     <article>Area:
         @foreach($article->contentareas as $contentArea)
             {{$contentArea->title}}
         @endforeach
     </article>
+    @endunless
 
     <div>Page:
         @foreach($article->pages as $page)
