@@ -5,7 +5,7 @@
     <h1>Create a CSS Template</h1>
 
     <hr/>
-    {!!Form::open(['url'=> 'csstemplates'])!!}
+    {!!Form::model($cssTemplate = new \App\CSSTemplate,['url'=> 'csstemplates'])!!}
     @include('csstemplates.form',['submitButtonText'=> 'Add a Template'])
     {!!Form::close()!!}
 
