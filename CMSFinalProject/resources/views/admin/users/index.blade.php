@@ -5,13 +5,13 @@
 
     <h1>Users</h1>
 
-    <a href="{{ route('users.create') }}" class="btn btn-primary">Create New User</a>
+    <a href="{{ route('admin.users.create') }}" class="btn btn-primary">Create New User</a>
 
 
     @foreach($users as $user)
         <article>
             <h2>
-                <a href="{{action('Admin/UsersController@show',[$user->id])}}"> {{$user->name}}</a>
+                <a href="{{action('Admin\UsersController@show',[$user->id])}}"> {{$user->name}}</a>
 
                 <h4>Email Address: {{$user->email}}</h4>
 

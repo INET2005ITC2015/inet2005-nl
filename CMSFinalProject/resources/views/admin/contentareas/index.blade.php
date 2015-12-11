@@ -5,13 +5,13 @@
 
     <h1>Content Area</h1>
 
-    <a href="{{ route('contentareas.create') }}" class="btn btn-primary">Create a New Content Area</a>
+    <a href="{{ route('admin.contentareas.create') }}" class="btn btn-primary">Create a New Content Area</a>
 
 
     @foreach($contentAreas as $contentArea)
         <article>
             <h2>
-                <a href="{{action('ContentAreasController@show',[$contentArea->id])}}"> {{$contentArea->title}}</a>
+                <a href="{{action('Admin\ContentAreasController@show',[$contentArea->id])}}"> {{$contentArea->title}}</a>
             </h2>
             <h3>Alias: {{$contentArea->alias}}</h3>
 

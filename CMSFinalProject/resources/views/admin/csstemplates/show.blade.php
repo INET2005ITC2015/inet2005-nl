@@ -17,9 +17,9 @@
         @endif
     </div>
     <br/><br/>
-    <a href="{{ route('csstemplates.edit', $cssTemplate->id) }}" class="btn btn-primary">Edit This Template</a>
+    <a href="{{ route('admin.csstemplates.edit', $cssTemplate->id) }}" class="btn btn-primary">Edit This Template</a>
     <div class="col-md-6 text-right">
-        {!! Form::open(['method' => 'DELETE', 'action'=> ['CSSTemplatesController@destroy', $cssTemplate->id]]) !!}
+        {!! Form::open(['method' => 'DELETE', 'action'=> ['Admin\CSSTemplatesController@destroy', $cssTemplate->id]]) !!}
             {!! Form::submit('Delete this Template?', ['class' => 'btn btn-danger']) !!}
         {!! Form::close() !!}
     </div>

@@ -5,13 +5,13 @@
 
     <h1>Pages</h1>
 
-    <a href="{{ route('pages.create') }}" class="btn btn-primary">Create New Page</a>
+    <a href="{{ route('admin.pages.create') }}" class="btn btn-primary">Create New Page</a>
 
 
     @foreach($pages as $page)
         <article>
             <h2>
-                <a href="{{action('PagesController@show',[$page->id])}}"> {{$page->title}}</a>
+                <a href="{{action('Admin\PagesController@show',[$page->id])}}"> {{$page->title}}</a>
             </h2>
             <h3>Alias: {{$page->alias}}</h3>
 

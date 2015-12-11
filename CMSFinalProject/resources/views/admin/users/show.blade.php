@@ -22,9 +22,9 @@
     @endunless
 
     <br/><br/>
-    <a href="{{ route('users.edit', $user->id) }}" class="btn btn-primary">Edit User</a>
+    <a href="{{ route('admin.users.edit', $user->id) }}" class="btn btn-primary">Edit User</a>
     <div class="col-md-6 text-right">
-        {!! Form::open(['method' => 'DELETE', 'action'=> ['Admin/UsersController@destroy', $user->id]]) !!}
+        {!! Form::open(['method' => 'DELETE', 'action'=> ['Admin\UsersController@destroy', $user->id]]) !!}
             {!! Form::submit('Delete this User?', ['class' => 'btn btn-danger']) !!}
         {!! Form::close() !!}
     </div>

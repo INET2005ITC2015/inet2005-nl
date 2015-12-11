@@ -11,9 +11,9 @@
     </article>
     <div> Display Order: {{$contentArea->display_order}}</div>
     <br/><br/>
-    <a href="{{ route('contentareas.edit', $contentArea->id) }}" class="btn btn-primary">Edit Content Area</a>
+    <a href="{{ route('admin.contentareas.edit', $contentArea->id) }}" class="btn btn-primary">Edit Content Area</a>
     <div class="col-md-6 text-right">
-        {!! Form::open(['method' => 'DELETE', 'action'=> ['ContentAreasController@destroy', $contentArea->id]]) !!}
+        {!! Form::open(['method' => 'DELETE', 'action'=> ['Admin\ContentAreasController@destroy', $contentArea->id]]) !!}
             {!! Form::submit('Delete this Content Area?', ['class' => 'btn btn-danger']) !!}
         {!! Form::close() !!}
     </div>
