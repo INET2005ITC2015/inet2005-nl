@@ -21,8 +21,8 @@
 </div>
 
 <div class="form-group">
-    {!!Form::label('role_list', 'Role:') !!}
-    {!!Form::select('role_list[]',  $roles, null, ['id'=>'role_list', 'class' => 'form-control', 'multiple']) !!}
+    {!!Form::label('permission_list', 'Permission:') !!}
+    {!!Form::select('permission_list[]',  $permissions, null, ['id'=>'permission_list', 'class' => 'form-control', 'multiple']) !!}
 </div>
 
 <div class="form-group">
