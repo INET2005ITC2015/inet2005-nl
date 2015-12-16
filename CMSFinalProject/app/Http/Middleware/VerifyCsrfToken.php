@@ -1,8 +1,9 @@
 <?php namespace App\Http\Middleware;
 
 use Closure;
+use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as BaseVerifier;
 
-class RedirectIfNotAManager {
+class VerifyCsrfToken extends BaseVerifier {
 
 	/**
 	 * Handle an incoming request.
@@ -13,11 +14,7 @@ class RedirectIfNotAManager {
 	 */
 	public function handle($request, Closure $next)
 	{
-        if( ! $request->user()->isATeamManager()){
-            return redirect('articles');
-        }
-
-		return $next($request);
+		return parent::handle($request, $next);
 	}
 
 }

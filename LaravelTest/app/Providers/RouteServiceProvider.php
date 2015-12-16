@@ -33,14 +33,6 @@ class RouteServiceProvider extends ServiceProvider {
 
         });
 
-        $router->bind('tags',function($name){
-
-            return \App\Tag::where('name', $name)->firstOrFail();
-
-        });
-
-
-
 	}
 
 	/**

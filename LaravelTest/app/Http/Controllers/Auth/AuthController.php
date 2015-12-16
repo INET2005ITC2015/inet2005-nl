@@ -40,7 +40,7 @@ class AuthController extends Controller {
     {
         $this->auth->logout();
         \Session::flush();
-        return redirect('/');
+        return redirect('/home');
     }
 
 }

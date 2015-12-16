@@ -18,7 +18,7 @@
             <h3>Alias: {{$article->alias}}</h3>
             <div>Description: {{$article->description}}</div>
 
-            <div>Created By:{{ $article->user->name }}</div>
+            <div>Created By:{{ $article->user->first_name }} {{ $article->user->last_name }}</div>
             <div>Modified By:{{ Auth::user()->name }}</div>
             <div>@if($article->all_pages == 1)
                     All Pages: Yes

@@ -51,9 +51,31 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
         return $this->hasMany('App\Article');
     }
 
+    /**
+     * Assign a role to the user
+     *
+     * @param $role
+     * @return mixed
+     */
+    public function assignPermission($permission)
+    {
+        return $this->permissions()->attach($permission);
+    }
+    /**
+     * Remove a role from a user
+     *
+     * @param $role
+     * @return mixed
+     */
+    public function removePermission($Permission)
+    {
+        return $this->Permissions()->detach($Permission);
+    }
+
+
     public function hasPermission($name){
         foreach ($this->permissions as $permission){
-            if($permission->alias == $name){
+            if($permission->alias == $name || $permission->alias == $name){
                 return true;
             }
             return false;
@@ -61,6 +83,15 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 
     }
 
+//    public function isBoth()
+//    {
+//        $permission = $this->permissions;
+//        if($permission->alias == 'editor' || $permission->alias == 'admin')
+//        {
+//            return true;
+//        }
+//        return false;
+//    }
 
 
 }
