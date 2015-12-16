@@ -22,7 +22,7 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 	 *
 	 * @var array
 	 */
-	protected $fillable = ['name', 'email', 'password'];
+	protected $fillable = ['first_name', 'last_name','email', 'password'];
 
 	/**
 	 * The attributes excluded from the model's JSON form.
@@ -31,14 +31,36 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 	 */
 	protected $hidden = ['password', 'remember_token'];
 
+    public function setPasswordAttribute($value) {
+        $this->attributes['password'] = bcrypt($value);
+    }
+
+    public function permissions()
+    {
+        return $this->belongsToMany('App\Permission')->withTimestamps();
+    }
+
+//
+    public function getPermissionListAttribute(){
+
+        return $this->permissions->lists('id');
+    }
+
     public function articles(){
 
         return $this->hasMany('App\Article');
     }
 
+    public function hasPermission($name){
+        foreach ($this->permissions as $permission){
+            if($permission->alias == $name){
+                return true;
+            }
+            return false;
+        }
 
-    public function isATeamManager(){
-        return true;
     }
+
+
 
 }

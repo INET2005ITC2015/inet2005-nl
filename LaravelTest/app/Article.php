@@ -1,45 +1,53 @@
 <?php namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Carbon\Carbon;
 
 class Article extends Model {
 
+
+
     protected $fillable = [
-        'title','body', 'published_at', 'user_id'
+        'title', 'alias','all_pages', 'description', 'html_content'
     ];
+    protected $hidden = ['created_by', 'modified_by'];
 
-    protected $dates = [
-        'published_at'
-    ];
-
-    public function scopePublished($query){
-        $query->where('published_at','<=', Carbon::now());
+    /**
+     * Always alias be without space
+     */
+    public function getAliasAttribute($value) {
+        return $value;
     }
 
-    public function setPublishedAtAttribute($date){
-        $this->attributes['published_at'] = Carbon::parse($date);
+    public function setAliasAttribute($value) {
+        $sPattern = '/\s*/m';
+        $sReplace = '';
+        $value = preg_replace( $sPattern, $sReplace, $value);
+        $this->attributes['alias'] = $value;
     }
 
-    public function getPublishedAtAttribute($date){
-       return new Carbon($date);
+    public function contentAreas(){
+
+        return $this->belongsToMany('App\ContentArea')->withTimestamps();
+    }
+
+    public function pages(){
+
+        return $this->belongsToMany('App\Page')->withTimestamps();
+    }
+
+    public function getPageListAttribute(){
+
+        return $this->pages->lists('id');
+    }
+
+    public function getAreaListAttribute(){
+
+        return $this->contentareas->lists('id');
     }
 
     public function user(){
 
         return $this->belongsTo('App\User');
     }
-
-    public function tags(){
-
-        return $this->belongsToMany('App\Tag')->withTimestamps();
-    }
-
-    public function getTagListAttribute(){
-
-        return $this->tags->lists('id');
-    }
-
-
 
 }

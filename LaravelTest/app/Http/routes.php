@@ -1,6 +1,6 @@
 <?php
 
-Route::get('/', 'WelcomeController@index');
+Route::get('home', 'WelcomeController@index');
 
 Route::get('home', 'HomeController@index');
 
@@ -9,15 +9,12 @@ Route::controllers([
     'password' => 'Auth\PasswordController',
 ]);
 
-Route::get('/', array('as' => 'home', 'uses' => 'HomeController@index'));
+Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function() {
 
-Route::get('about','PagesController@about');
-Route::get('contact','PagesController@contact');
+            Route::resource('users', 'UsersController');
+            Route::resource('articles', 'ArticlesController');
+            Route::resource('pages', 'PagesController');
+            Route::resource('contentareas', 'ContentAreasController');
+            Route::resource('csstemplates', 'CSSTemplatesController');
 
-Route::resource('articles', 'ArticlesController');
-
-Route::get('tags/{tags}','TagsController@show');
-
-Route::get('foo',['middleware'=> ['auth', 'manager'] , function(){
-    return 'This page is only viewable to the Manager';
-}]);
+});

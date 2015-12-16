@@ -5,25 +5,24 @@
 </div>
 
 <div class="form-group">
-    {!!Form::label('body', 'Body:') !!}
-    {!!Form::textarea('body', null, ['class' => 'form-control']) !!}
+    {!!Form::label('alias', 'Alias:') !!}
+    {!!Form::text('alias', null, ['class' => 'form-control']) !!}
 </div>
 
 <div class="form-group">
-    {!!Form::label('published_at', 'Publish On:') !!}
-    {!!Form::input('date', 'published_at', $article->published_at->format('Y-m-d'), ['class' => 'form-control']) !!}
+    {!!Form::label('description', 'Description:') !!}
+    {!!Form::textarea('description', null, ['class' => 'form-control']) !!}
 </div>
 
 <div class="form-group">
-    {!!Form::label('tag_list', 'Tags:') !!}
-    {!!Form::select('tag_list[]', $tags, null, ['id'=>'tag_list', 'class' => 'form-control', 'multiple']) !!}
+    {!!Form::label('display_order', 'Display Order:') !!}
+    {!!Form::text('display_order', null, ['class' => 'form-control']) !!}
 </div>
-
 <div class="form-group">
     {!!Form::submit($submitButtonText, ['class' => 'btn btn-primary form-control'])!!}
 </div>
 
-@section('footer')
+<!--@section('footer')
     <script>
             $('select').select2({
                 placeholder: 'Choose a tag'
