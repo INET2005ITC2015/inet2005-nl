@@ -22,3 +22,8 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function() {
             Route::resource('csstemplates', 'CSSTemplatesController');
         });
 });
+
+
+Route::get('site','SiteController@index');
+
+

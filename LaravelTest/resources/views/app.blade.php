@@ -37,7 +37,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li><a href="{{ url('/') }}">Home</a></li>
-                <li><a href="{{ url('/sites') }}">Main Site</a></li>
+                <li><a href="{{ url('/site') }}">Main Site</a></li>
             </ul>
             {{--&& Auth::user()->hasPermission('admin')--}}
             @if(Auth::user())
