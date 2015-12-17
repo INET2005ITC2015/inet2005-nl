@@ -6,7 +6,7 @@
 
     <hr/>
     {!!Form::model($cssTemplate, ['method'=>'PATCH','action'=> ['Admin\CSSTemplatesController@update', $cssTemplate->id]])!!}
-    @include('admin.csstemplates.form',['submitButtonText'=> 'Update The Template'])
+    @include('admin.csstemplates.form',['name'=>'modified_by', 'submitButtonText'=> 'Update The Template'])
     {!!Form::close()!!}
 
     @include('errors.list')

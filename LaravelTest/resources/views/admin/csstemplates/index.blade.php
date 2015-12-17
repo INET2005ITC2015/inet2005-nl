@@ -16,6 +16,10 @@
             <h3>Alias: {{$cssTemplate->alias}}</h3>
 
             <div class="description">Description: {{$cssTemplate->description}}</div>
+            <div>Created By:{{ $cssTemplate->user->first_name }} {{ $cssTemplate->user->last_name }}</div>
+            <div>Created At: {{ $cssTemplate->created_at->format('M d,Y \a\t h:i a') }}</div>
+            <div>Modified By:{{Auth::user()->first_name}} {{Auth::user()->last_name}}</div>
+            <div>Modified At:{{ $cssTemplate->updated_at->format('M d,Y \a\t h:i a') }}</div>
             <div> @if($cssTemplate->active == 1)
                     Active: Yes
                 @endif

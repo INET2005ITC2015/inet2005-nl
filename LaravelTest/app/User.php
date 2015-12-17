@@ -51,6 +51,21 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
         return $this->hasMany('App\Article');
     }
 
+    public function pages(){
+
+        return $this->hasMany('App\Page');
+    }
+
+    public function contentAreas(){
+
+        return $this->hasMany('App\ContentArea');
+    }
+
+    public function cssTemplates(){
+
+        return $this->hasMany('App\CSSTemplate');
+    }
+
     /**
      * Assign a role to the user
      *

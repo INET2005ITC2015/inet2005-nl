@@ -10,6 +10,7 @@ class Article extends Model {
         'title', 'alias','all_pages', 'description', 'html_content'
     ];
 
+    protected $hidden = ['created_by', 'modified_by'];
     /**
      * Always alias be without space
      */

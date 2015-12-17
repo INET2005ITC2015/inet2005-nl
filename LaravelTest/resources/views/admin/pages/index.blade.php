@@ -14,7 +14,10 @@
                 <a href="{{action('Admin\PagesController@show',[$page->id])}}"> {{$page->title}}</a>
             </h2>
             <h3>Alias: {{$page->alias}}</h3>
-
+            <div>Created By:{{ $page->user->first_name }} {{ $page->user->last_name }}</div>
+            <div>Created At: {{ $page->created_at->format('M d,Y \a\t h:i a') }}</div>
+            <div>Modified By:{{Auth::user()->first_name}} {{Auth::user()->last_name}}</div>
+            <div>Modified At:{{ $page->updated_at->format('M d,Y \a\t h:i a') }}</div>
             <div class="description">{{$page->description}}</div>
             @unless($page->articles->isEmpty())
             <div>Assigned Articles:
@@ -24,6 +27,7 @@
                 </ul>
             </div>
             @endunless
+
         </article>
     @endforeach
 @stop

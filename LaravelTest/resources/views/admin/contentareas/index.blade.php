@@ -36,6 +36,10 @@
             </div>
 
             @endunless
+            <div>Created By:{{ $contentArea->user->first_name }} {{ $contentArea->user->last_name }}</div>
+            <div>Created At: {{ $contentArea->created_at->format('M d,Y \a\t h:i a') }}</div>
+            <div>Modified By:{{Auth::user()->first_name}} {{Auth::user()->last_name}}</div>
+            <div>Modified At:{{ $contentArea->updated_at->format('M d,Y \a\t h:i a') }}</div>
 
         </article>
     @endforeach

@@ -17,9 +17,6 @@
             </h2>
             <h3>Alias: {{$article->alias}}</h3>
             <div>Description: {{$article->description}}</div>
-
-            <div>Created By:{{ $article->user->first_name }} {{ $article->user->last_name }}</div>
-            <div>Modified By:{{ Auth::user()->name }}</div>
             <div>@if($article->all_pages == 1)
                     All Pages: Yes
                  @endif
@@ -49,7 +46,9 @@
                 @endunless
             @endif
             <div>{{$article->html_content}}</div>
+            <div>Created By:{{ $article->user->first_name }} {{ $article->user->last_name }}</div>
             <div>Created At: {{ $article->created_at->format('M d,Y \a\t h:i a') }}</div>
+            <div>Modified By:{{Auth::user()->first_name}} {{Auth::user()->last_name}}</div>
             <div>Modified At:{{ $article->updated_at->format('M d,Y \a\t h:i a') }}</div>
         </article>
     @endforeach

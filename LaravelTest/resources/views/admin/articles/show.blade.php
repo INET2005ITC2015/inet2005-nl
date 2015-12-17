@@ -4,7 +4,12 @@
 
     <h1>Title: {{$article->title}}</h1>
     <h3>Alias: {{$article->alias}}</h3>
+    <article>Created At: {{ $article->created_at->format('M d,Y \a\t h:i a') }}</article>
+    <div>Created By:{{ $article->user->first_name }} {{ $article->user->last_name }}</div>
+    <article>Modified At:{{ $article->updated_at->format('M d,Y \a\t h:i a') }}</article>
+    <div>Modified By:{{Auth::user()->first_name}} {{Auth::user()->last_name}}</div>
     <article>Description: {{$article->description}}</article>
+    <div>Html Content: {{$article->html_content}}</div>
     <div>@if($article->all_pages == 1)
             All Pages: Yes
         @endif
@@ -20,17 +25,18 @@
     </article>
     @endunless
 
-    <div>Page:
-        @foreach($article->pages as $page)
-            {{$page->title}}
-        @endforeach
-    </div>
-
-    <article>Created By: {{ $article->user->name }}</article>
-    </article>
-    <article>Modified By: </article>
-    <article>Created At: {{ $article->created_at->format('M d,Y \a\t h:i a') }}</article>
-    <article>Modified At:{{ $article->updated_at->format('M d,Y \a\t h:i a') }}</article>
+    @if($article->all_pages == 0)
+        <div>Page: Unassigned</div>
+    @endif
+    @if($article->all_pages == 1)
+        @unless($article->pages->isEmpty())
+            <div>Page:
+                @foreach($article->pages as $page)
+                    {{$page->title}}
+                @endforeach
+            </div>
+        @endunless
+    @endif
 
     <a href="{{ route('admin.articles.edit', $article->id) }}" class="btn btn-primary">Edit Article</a>
     <div class="col-md-6 text-right">

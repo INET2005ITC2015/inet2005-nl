@@ -24,15 +24,6 @@ class RouteServiceProvider extends ServiceProvider {
 	{
 		parent::boot($router);
 
-		$router->bind('articles',function($id){
-
-            if($id == null) {
-                return "Id Not Exists";
-            }
-            return \App\Article::published()->findOrFail($id);
-
-        });
-
 	}
 
 	/**

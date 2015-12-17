@@ -1,4 +1,5 @@
-
+{{--<input type="hidden" name="created_by" value="{{Auth::id() }}">--}}
+{!!Form::hidden($name, Auth::id()) !!}
 
 <div class="form-group">
     {!!Form::label('title', 'Title:') !!}

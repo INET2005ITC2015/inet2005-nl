@@ -6,7 +6,7 @@
 
     <hr/>
     {!!Form::model($cssTemplate = new \App\CSSTemplate,['url'=> 'admin/csstemplates'])!!}
-    @include('admin.csstemplates.form',['submitButtonText'=> 'Add a Template'])
+    @include('admin.csstemplates.form',['name'=>'created_by','submitButtonText'=> 'Add a Template'])
     {!!Form::close()!!}
 
     @include('errors.list')

@@ -39,8 +39,8 @@
                 <li><a href="{{ url('/') }}">Home</a></li>
                 <li><a href="{{ url('/sites') }}">Main Site</a></li>
             </ul>
-
-            @if(Auth::user() && Auth::user()->hasPermission('admin'))
+            {{--&& Auth::user()->hasPermission('admin')--}}
+            @if(Auth::user())
                 <ul class="nav navbar-nav">
 
                     <li><a href="{{ url('admin/users') }}">User</a></li>
@@ -51,15 +51,15 @@
 
                 </ul>
             @endif
-            @if (Auth::user() && Auth::user()->hasPermission('editor'))
-                <ul class="nav navbar-nav">
-                <li><a href="{{ url('admin/pages') }}">Pages</a></li>
-                <li><a href="{{ url('admin/contentareas') }}">Content Areas</a></li>
-                <li><a href="{{ url('admin/articles') }}">Articles</a></li>
-                <li><a href="{{ url('admin/csstemplates') }}">CSS Templates</a></li>
+            {{--@if (Auth::user() && Auth::user()->hasPermission('editor'))--}}
+                {{--<ul class="nav navbar-nav">--}}
+                {{--<li><a href="{{ url('admin/pages') }}">Pages</a></li>--}}
+                {{--<li><a href="{{ url('admin/contentareas') }}">Content Areas</a></li>--}}
+                {{--<li><a href="{{ url('admin/articles') }}">Articles</a></li>--}}
+                {{--<li><a href="{{ url('admin/csstemplates') }}">CSS Templates</a></li>--}}
 
-                </ul>
-                @endif
+                {{--</ul>--}}
+                {{--@endif--}}
 
             {{--@if (Auth::user() && )--}}
             {{--<ul class="nav navbar-nav">--}}

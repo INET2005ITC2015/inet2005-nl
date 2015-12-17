@@ -6,7 +6,7 @@
 
     <hr/>
     {!!Form::model($contentArea = new \App\ContentArea,['url'=> 'admin/contentareas'])!!}
-    @include('admin.contentareas.form',['submitButtonText'=> 'Add Content Area'])
+    @include('admin.contentareas.form',['name'=>'created_by', 'submitButtonText'=> 'Add Content Area'])
     {!!Form::close()!!}
 
     @include('errors.list')
