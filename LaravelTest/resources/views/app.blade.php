@@ -39,41 +39,24 @@
                 <li><a href="{{ url('/') }}">Home</a></li>
                 <li><a href="{{ url('/site') }}">Main Site</a></li>
             </ul>
-            {{--&& Auth::user()->hasPermission('admin')--}}
-            @if(Auth::user())
-                <ul class="nav navbar-nav">
 
+
+            @if(Auth::user() && Auth::user()->is_admin())
+                <ul class="nav navbar-nav">
                     <li><a href="{{ url('admin/users') }}">User</a></li>
                     <li><a href="{{ url('admin/pages') }}">Pages</a></li>
                     <li><a href="{{ url('admin/contentareas') }}">Content Areas</a></li>
                     <li><a href="{{ url('admin/articles') }}">Articles</a></li>
                     <li><a href="{{ url('admin/csstemplates') }}">CSS Templates</a></li>
-
+                </ul>
+            @elseif (Auth::user() && Auth::user()->is_editor())
+                <ul class="nav navbar-nav">
+                    <li><a href="{{ url('admin/pages') }}">Pages</a></li>
+                    <li><a href="{{ url('admin/contentareas') }}">Content Areas</a></li>
+                    <li><a href="{{ url('admin/articles') }}">Articles</a></li>
+                    <li><a href="{{ url('admin/csstemplates') }}">CSS Templates</a></li>
                 </ul>
             @endif
-            {{--@if (Auth::user() && Auth::user()->hasPermission('editor'))--}}
-                {{--<ul class="nav navbar-nav">--}}
-                {{--<li><a href="{{ url('admin/pages') }}">Pages</a></li>--}}
-                {{--<li><a href="{{ url('admin/contentareas') }}">Content Areas</a></li>--}}
-                {{--<li><a href="{{ url('admin/articles') }}">Articles</a></li>--}}
-                {{--<li><a href="{{ url('admin/csstemplates') }}">CSS Templates</a></li>--}}
-
-                {{--</ul>--}}
-                {{--@endif--}}
-
-            {{--@if (Auth::user() && )--}}
-            {{--<ul class="nav navbar-nav">--}}
-
-            {{--<li><a href="{{ url('admin/users') }}">User</a></li>--}}
-            {{--<li><a href="{{ url('admin/pages') }}">Pages</a></li>--}}
-            {{--<li><a href="{{ url('admin/contentareas') }}">Content Areas</a></li>--}}
-            {{--<li><a href="{{ url('admin/articles') }}">Articles</a></li>--}}
-            {{--<li><a href="{{ url('admin/csstemplates') }}">CSS Templates</a></li>--}}
-
-            {{--</ul>--}}
-            {{--@endif--}}
-
-
 
             <ul class="nav navbar-nav navbar-right">
                 @if (Auth::guest())

@@ -66,47 +66,24 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
         return $this->hasMany('App\CSSTemplate');
     }
 
-    /**
-     * Assign a role to the user
-     *
-     * @param $role
-     * @return mixed
-     */
-    public function assignPermission($permission)
-    {
-        return $this->permissions()->attach($permission);
-    }
-    /**
-     * Remove a role from a user
-     *
-     * @param $role
-     * @return mixed
-     */
-    public function removePermission($Permission)
-    {
-        return $this->Permissions()->detach($Permission);
-    }
-
-
-    public function hasPermission($name){
-        foreach ($this->permissions as $permission){
-            if($permission->alias == $name || $permission->alias == $name){
+    public function is_admin(){
+        foreach($this->permissions as $permission) {
+            if ($permission->alias == 'admin') {
                 return true;
             }
-            return false;
         }
-
     }
 
-//    public function isBoth()
-//    {
-//        $permission = $this->permissions;
-//        if($permission->alias == 'editor' || $permission->alias == 'admin')
-//        {
-//            return true;
-//        }
-//        return false;
-//    }
+    public function is_editor(){
+        foreach($this->permissions as $permission) {
+            if ($permission->alias == 'editor') {
+                return true;
+            }
+        }
+    }
+
+
+
 
 
 }

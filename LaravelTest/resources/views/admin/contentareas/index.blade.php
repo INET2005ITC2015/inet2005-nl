@@ -4,11 +4,9 @@
 
 
     <h1>Content Area</h1>
-
-
-    <a href="{{ route('admin.contentareas.create') }}" class="btn btn-primary">Create a New Content Area</a>
-
-
+    @if(Auth::user() && Auth::user()->is_editor())
+        <a href="{{ route('admin.contentareas.create') }}" class="btn btn-primary">Create a New Content Area</a>
+    @endif
     @foreach($contentAreas as $contentArea)
         <article>
             <h2>
@@ -43,4 +41,5 @@
 
         </article>
     @endforeach
+
 @stop

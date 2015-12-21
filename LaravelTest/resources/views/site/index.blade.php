@@ -1,32 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Main Site</title>
-    <style type="text/css">
-        {{$cssTemplate->css_content}}
-    </style>
-</head>
-<body>
-<header>
-    <h1>{{$page->title}}></h1>
-</header>
-<nav>
-    <ul>
-        <!--        {{--@foreach ($pages as $page)--}}-->
-        <li><a href='index.blade.php?page={{$page->alias}}'>{{$page->title}}</a></li>
-        <!--        {{--@endforeach--}}-->
-    </ul>
-</nav>
-<section>
-    <!--    {{--@foreach ($contentAreas as $area)--}}-->
-    <div id='{{$contentArea->alias}}'>
-        <!--        {{--@foreach ($articles as $article)--}}-->
-        <article id='{{$article->alias}}'>
-            {{$article->html_content}}
-        </article>
-        <!--        {{--@endforeach--}}-->
-    </div>
-    <!--    {{--@endforeach--}}-->
-</section>
-</body>
+<style type="text/css">
+    @foreach ($cssTemplates as $cssTemplate)
+    {{$cssTemplate->css_content}}
+    @endforeach
+</style>
+
+    @foreach ($contentAreas as $area)
+        <div id='{{$area->alias}}'>
+            @foreach ($pages as $page)
+                <title>{{$page->title}}</title>
+                <ul>
+                    <li><a href='index.blade.php?page={{$page->alias}}'>{{$page->title}}</a></li>
+                </ul>
+            @endforeach
+            {{--@endforeach--}}
+                {{--@foreach ($articles as $article)--}}
+                    {{--<article id='{{$article->alias}}'>--}}
+                        {{--{{$article->html_content}}--}}
+                    {{--</article>--}}
+
+        </div>
+
+@endforeach
+
+
+
 </html>

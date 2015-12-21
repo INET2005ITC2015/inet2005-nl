@@ -25,5 +25,6 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function() {
 
 
 Route::get('site','SiteController@index');
+Route::get('site/{site}','SiteController@page_show');
 
 
