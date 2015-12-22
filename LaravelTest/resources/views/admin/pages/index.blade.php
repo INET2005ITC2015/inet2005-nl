@@ -12,7 +12,11 @@
         @foreach($pages as $page)
             <article>
                 <h2>
-                    <a href="{{action('Admin\PagesController@show',[$page->id])}}"> {{$page->title}}</a>
+                    @if(Auth::user() && Auth::user()->is_editor())
+                    <a href="{{action('Admin\PagesController@show',[$page->id])}}">Title: {{$page->title}}</a>
+                    @else
+                        Title: {{$page->title}}
+                    @endif
                 </h2>
                 <h3>Alias: {{$page->alias}}</h3>
                 <div>Created By:{{ $page->user->first_name }} {{ $page->user->last_name }}</div>

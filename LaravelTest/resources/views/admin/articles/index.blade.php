@@ -10,8 +10,11 @@
         @foreach($articles as $value=>$article)
             <article>
                 <h2>
-
+                    @if(Auth::user() && Auth::user()->is_editor())
                     <a href="{{action('Admin\ArticlesController@show',[$article->id])}}"> Title: {{$article->title}}</a>
+                    @else
+                        Title: {{$article->title}}
+                    @endif
                 </h2>
                 <h3>Alias: {{$article->alias}}</h3>
                 <div>Description: {{$article->description}}</div>

@@ -11,7 +11,7 @@
             @foreach ($pages as $page)
                 <title>{{$page->title}}</title>
                 <ul>
-                    <li><a href='index.blade.php?page={{$page->alias}}'>{{$page->title}}</a></li>
+                    <h3><li><a href='index.blade.php?page={{$page->alias}}'>{{$page->title}}</a></li></h3>
                 </ul>
             @endforeach
             {{--@endforeach--}}

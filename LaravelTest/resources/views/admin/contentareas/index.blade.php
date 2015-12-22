@@ -10,7 +10,11 @@
     @foreach($contentAreas as $contentArea)
         <article>
             <h2>
-                <a href="{{action('Admin\ContentAreasController@show',[$contentArea->id])}}"> {{$contentArea->title}}</a>
+                @if(Auth::user() && Auth::user()->is_editor())
+                <a href="{{action('Admin\ContentAreasController@show',[$contentArea->id])}}">Title: {{$contentArea->title}}</a>
+                @else
+                    Title: {{$contentArea->title}}
+                @endif
             </h2>
             <h3>Alias: {{$contentArea->alias}}</h3>
 

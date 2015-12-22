@@ -12,7 +12,11 @@
         @foreach($cssTemplates as $cssTemplate)
             <article>
                 <h2>
-                    <a href="{{action('Admin\CSSTemplatesController@show',[$cssTemplate->id])}}"> {{$cssTemplate->title}}</a>
+                    @if(Auth::user() && Auth::user()->is_editor())
+                    <a href="{{action('Admin\CSSTemplatesController@show',[$cssTemplate->id])}}">Title: {{$cssTemplate->title}}</a>
+                    @else
+                        Title: {{$cssTemplate->title}}
+                    @endif
                 </h2>
                 <h3>Alias: {{$cssTemplate->alias}}</h3>
 

@@ -4,13 +4,20 @@ use Illuminate\Database\Eloquent\Model;
 
 class Article extends Model {
 
-
-
     protected $fillable = [
         'title', 'alias','all_pages', 'description', 'html_content'
     ];
 
     protected $hidden = ['created_by', 'modified_by'];
+
+    public static function boot()
+    {
+        // Update field update_by with current user id each time article is updated.
+        static::updating(function ($article) {
+            $article->modified_by = \Auth::user()->id;
+        });
+    }
+
     /**
      * Always alias be without space
      */
@@ -25,7 +32,7 @@ class Article extends Model {
         $this->attributes['alias'] = $value;
     }
 
-    public function contentAreas(){
+   public function contentAreas(){
 
         return $this->belongsToMany('App\ContentArea')->withTimestamps();
     }
