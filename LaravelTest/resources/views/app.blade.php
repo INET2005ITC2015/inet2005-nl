@@ -36,7 +36,7 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="{{ url('/') }}">Home</a></li>
+                <li><a href="{{ url('/home') }}">Home</a></li>
                 <li><a href="{{ url('/site') }}">Main Site</a></li>
             </ul>
 
@@ -55,6 +55,10 @@
                     <li><a href="{{ url('admin/contentareas') }}">Content Areas</a></li>
                     <li><a href="{{ url('admin/articles') }}">Articles</a></li>
                     <li><a href="{{ url('admin/csstemplates') }}">CSS Templates</a></li>
+                </ul>
+            @elseif(Auth::user() &&  Auth::user()->is_author())
+                <ul class="nav navbar-nav">
+                    <li><a href="{{ url('/site') }}">Main Site</a></li>
                 </ul>
             @endif
 
@@ -91,22 +95,24 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.1-rc.1/js/select2.min.js"></script>
 <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
-<script>tinymce.init({ selector:'#htmlContent',
+<script>
+    tinymce.init({ selector:'#htmlContent',
         plugins: [
-            'advlist autolink lists link image charmap print preview anchor',
-            'searchreplace visualblocks code fullscreen',
-            'insertdatetime media table contextmenu paste code'
+            "advlist autolink lists link image charmap print preview anchor",
+            "searchreplace visualblocks code fullscreen",
+            "insertdatetime media table contextmenu paste code"
         ],
-        //toolbar: 'insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image',
+        toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify |" +
+        " bullist numlist outdent indent | link image",
         visualblocks_default_state: true,
         end_container_on_empty_block: true
     });
 </script>
 
-<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.1-rc.1/js/select2.min.js"></script>
+
 @yield('footer')
 </body>
 </html>

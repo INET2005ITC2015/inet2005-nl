@@ -49,7 +49,7 @@
                 <div>{{$article->html_content}}</div>
                 <div>Created By:{{ $article->user->first_name }} {{ $article->user->last_name }}</div>
                 <div>Created At: {{ $article->created_at->format('M d,Y \a\t h:i a') }}</div>
-                <div>Modified By:{{Auth::user()->first_name}} {{Auth::user()->last_name}}</div>
+                <div>Modified By:{{$article->modified_by}}</div>
                 <div>Modified At:{{ $article->updated_at->format('M d,Y \a\t h:i a') }}</div>
             </article>
         @endforeach

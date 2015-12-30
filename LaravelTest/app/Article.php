@@ -5,7 +5,7 @@ use Illuminate\Database\Eloquent\Model;
 class Article extends Model {
 
     protected $fillable = [
-        'title', 'alias','all_pages', 'description', 'html_content'
+        'title', 'alias','all_pages', 'description', 'html_content','created_by', 'modified_by'
     ];
 
     protected $hidden = ['created_by', 'modified_by'];

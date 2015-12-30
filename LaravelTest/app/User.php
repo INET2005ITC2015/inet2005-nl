@@ -82,6 +82,14 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
         }
     }
 
+    public function is_author(){
+        foreach($this->permissions as $permission) {
+            if ($permission->alias == 'author') {
+                return true;
+            }
+        }
+    }
+
 
 
 

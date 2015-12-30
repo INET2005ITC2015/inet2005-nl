@@ -1,5 +1,3 @@
-{{--<input type="hidden" name="_token" value="{{ csrf_token() }}">--}}
-{{--{!!Form::hidden(_token, ['value'=>'{{ csrf_token() }}'])!!}--}}
 <input type="hidden" name="_token" value="{{ csrf_token() }}">
 <div class="form-group">
     {!!Form::label('first_name', 'First Name:') !!}

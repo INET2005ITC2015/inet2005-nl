@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html>
+<head>
 <style type="text/css">
     @foreach ($cssTemplates as $cssTemplate)
     {{$cssTemplate->css_content}}
     @endforeach
 </style>
 
+    @foreach ($pages as $page)
+        <title>{{$page->title}}</title>
+    @endforeach
+</head>
     @foreach ($contentAreas as $area)
         <div id='{{$area->alias}}'>
-            @foreach ($pages as $page)
-                <title>{{$page->title}}</title>
-                <ul>
-                    <h3><li><a href='index.blade.php?page={{$page->alias}}'>{{$page->title}}</a></li></h3>
-                </ul>
-            @endforeach
+           {{--@foreach($articles as $article)--}}
+
             {{--@endforeach--}}
-                {{--@foreach ($articles as $article)--}}
-                    {{--<article id='{{$article->alias}}'>--}}
-                        {{--{{$article->html_content}}--}}
-                    {{--</article>--}}
-
+            @foreach($area->articles as $article)
+                @foreach($article->pages as $page)
+                    <ul>
+                        <li><h2><a href='index.blade.php?page={{$page->alias}}'>{{$page->title}}</a></h2></li>
+                    </ul>
+                @endforeach
+                <article id='{{$article->alias}}'>
+                    {!! $article->html_content !!}
+                </article>
+            @endforeach
         </div>
-
-@endforeach
+    @endforeach
 
 
 

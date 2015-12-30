@@ -9,10 +9,10 @@
     <article>
         {{$cssTemplate->description}}
     </article>
-    <div>Created By:{{ $cssTemplate->user->first_name }} {{ $cssTemplate->user->last_name }}</div>
-    <div>Created At: {{ $cssTemplate->created_at->format('M d,Y \a\t h:i a') }}</div>
-    <div>Modified By:{{$cssTemplate->modified_by}}</div>
-    <div>Modified At:{{ $cssTemplate->updated_at->format('M d,Y \a\t h:i a') }}</div>
+    <div>Created By : {{ $cssTemplate->user->first_name }} {{ $cssTemplate->user->last_name }}</div>
+    <div>Created At : {{ $cssTemplate->created_at->format('M d,Y \a\t h:i a') }}</div>
+    <div>Modified By: {{$cssTemplate->modified_by}}</div>
+    <div>Modified At: {{ $cssTemplate->updated_at->format('M d,Y \a\t h:i a') }}</div>
     <div> @if($cssTemplate->active == 1)
         Active: Yes
     @endif

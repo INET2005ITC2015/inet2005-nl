@@ -7,7 +7,7 @@
     <article>Created At: {{ $article->created_at->format('M d,Y \a\t h:i a') }}</article>
     <div>Created By:{{ $article->user->first_name }} {{ $article->user->last_name }}</div>
     <article>Modified At:{{ $article->updated_at->format('M d,Y \a\t h:i a') }}</article>
-    <div>Modified By:{{Auth::user()->first_name}} {{Auth::user()->last_name}}</div>
+    <div>Modified By:{{ $article->user->first_name }}</div>
     <article>Description: {{$article->description}}</article>
     <div>Html Content: {{$article->html_content}}</div>
     <div>@if($article->all_pages == 1)
