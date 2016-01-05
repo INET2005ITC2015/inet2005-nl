@@ -9,7 +9,14 @@
     <article>
         Password: {{$user->password}}
     </article>
-
+    @if(($user->modified_by != $user->created_by) or ($user->modified_by == $user->created_by))
+        <div>Created By: {{ $fNameCreator }}  {{ $lNameCreator }}</div>
+    @endif
+    <div>Created At: {{ $user->created_at->format('M d,Y \a\t h:i a') }}</div>
+    @if(($user->modified_by != $user->created_by) or ($user->modified_by == $user->created_by))
+        <div>Modified By: {{ $fName }}  {{ $lName }}</div>
+    @endif
+    <div>Modified At: {{ $user->updated_at->format('M d,Y \a\t h:i a') }}</div>
     @unless($user->permissions->isEmpty())
         <article>Permissions:
             <ul>

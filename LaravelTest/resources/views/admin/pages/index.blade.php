@@ -22,7 +22,7 @@
                 <div>Created By:{{ $page->user->first_name }} {{ $page->user->last_name }}</div>
                 <div>Created At: {{ $page->created_at->format('M d,Y \a\t h:i a') }}</div>
                 @if($page->modified_by)
-                <div>Modified By: {{ $page->modified_by }} </div>
+                <div>Modified By: {{ $page->user->first_name }} </div>
                 @endif
                 <div>Modified At: {{ $page->updated_at->format('M d,Y \a\t h:i a') }}</div>
                 <div class="description">{{$page->description}}</div>

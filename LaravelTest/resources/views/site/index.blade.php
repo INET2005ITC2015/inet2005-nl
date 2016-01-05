@@ -11,16 +11,32 @@
         <title>{{$page->title}}</title>
     @endforeach
 </head>
+<body>
+{{--<header>--}}
+    {{--<h1>--}}
+        {{--@foreach ($pages as $page)--}}
+        {{--$page->title--}}
+            {{--<br/>--}}
+        {{--@endforeach--}}
+    {{--</h1>--}}
+{{--</header>--}}
+<nav>
+    <ul>
+        @foreach ($pages as $page)
+            <li><h2><a href='index.blade.php?page={{$page->alias}}'>{{$page->title}}</a></h2></li>
+        @endforeach
+
+    </ul>
+</nav>
+<section>
     @foreach ($contentAreas as $area)
         <div id='{{$area->alias}}'>
-           {{--@foreach($articles as $article)--}}
+           @foreach($articles as $article)
 
-            {{--@endforeach--}}
+            @endforeach
             @foreach($area->articles as $article)
                 @foreach($article->pages as $page)
-                    <ul>
-                        <li><h2><a href='index.blade.php?page={{$page->alias}}'>{{$page->title}}</a></h2></li>
-                    </ul>
+                       <h2><a href='index.blade.php?page={{$page->alias}}'>{{$page->title}}</a></h2>
                 @endforeach
                 <article id='{{$article->alias}}'>
                     {!! $article->html_content !!}
@@ -29,6 +45,7 @@
         </div>
     @endforeach
 
-
-
+</section>
+</body>
 </html>
+
