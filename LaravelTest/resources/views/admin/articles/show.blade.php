@@ -41,11 +41,21 @@
     @endif
 
     <a href="{{ route('admin.articles.edit', $article->id) }}" class="btn btn-primary">Edit Article</a>
+
     <div class="col-md-6 text-right">
         {!! Form::open(['method' => 'DELETE', 'action'=> ['Admin\ArticlesController@destroy', $article->id]]) !!}
         {!! Form::submit('Delete this Article?', ['class' => 'btn btn-danger']) !!}
         {!! Form::close() !!}
     </div>
+
+    <div class="col-md-1 text-right">
+        {!! Form::open(['method' => 'GET', 'action' => ['Admin\ArticlesController@archive', $article->id]]) !!}
+        {!! Form::submit('Archive', ['class' => 'btn btn-primary']) !!}
+        {!! Form::close() !!}
+    </div>
+
+
+
 
 
 @stop

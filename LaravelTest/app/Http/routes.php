@@ -15,14 +15,18 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function() {
         function(){
             Route::resource('users', 'UsersController');
             Route::resource('articles', 'ArticlesController');
+            Route::get('articles/{id}/archive', 'ArticlesController@archive');
             Route::resource('pages', 'PagesController');
             Route::resource('contentareas', 'ContentAreasController');
             Route::resource('csstemplates', 'CSSTemplatesController');
         });
 });
 
+Route::get('/', 'SiteController@index');
+//Route::get('home', 'SiteController@index');
+//Route::get('site', 'SiteController@index');
 
-Route::get('site','SiteController@index');
-Route::get('site/{site}','SiteController@page_show');
+
+
 
 
