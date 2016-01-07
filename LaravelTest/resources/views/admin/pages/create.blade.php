@@ -6,7 +6,7 @@
 
     <hr/>
     {!!Form::model($page = new \App\Page,['url'=> 'admin/pages'])!!}
-    @include('admin.pages.form',['name'=>'created_by','submitButtonText'=> 'Add Page'])
+    @include('admin.pages.form',['submitButtonText'=> 'Add Page'])
     {!!Form::close()!!}
 
     @include('errors.list')

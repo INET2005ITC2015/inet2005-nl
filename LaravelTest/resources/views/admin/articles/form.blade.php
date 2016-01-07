@@ -32,7 +32,6 @@
     {!!Form::select('area_list[]',  $area, null, ['class' => 'form-control']) !!}
 </div>
 
-
 <div class="form-group">
     {!!Form::label('html_content', 'HTML Content:') !!}
     {!!Form::textarea('html_content', null, ['id' => 'htmlContent', 'class' => 'form-control']) !!}

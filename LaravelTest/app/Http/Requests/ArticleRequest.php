@@ -28,6 +28,7 @@ class ArticleRequest extends Request {
             'all_pages' => 'required',
             'description' => 'required',
             'html_content' => 'required',
+
         ];
     }
 

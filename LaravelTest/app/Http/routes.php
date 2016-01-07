@@ -22,7 +22,9 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function() {
         });
 });
 
-Route::get('/', 'SiteController@index');
+Route::get('/site', 'SiteController@index');
+Route::get('/site/{pgName}','SiteController@show');
+Route::resource('/', 'SiteController');
 //Route::get('home', 'SiteController@index');
 //Route::get('site', 'SiteController@index');
 

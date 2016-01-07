@@ -13,33 +13,32 @@
     <article>Description: {{$article->description}}</article>
     <div>Html Content: {{$article->html_content}}</div>
     <div>@if($article->all_pages == 1)
-            All Pages: Yes
-        @endif
-        @if($article->all_pages == 0)
-            All Pages: No
-        @endif
-    </div>
-    @unless($article->contentareas->isEmpty())
-    <article>Area:
-        @foreach($article->contentareas as $contentArea)
-            {{$contentArea->title}}
-        @endforeach
-    </article>
-    @endunless
-
+        All Pages: Yes
+    @endif
     @if($article->all_pages == 0)
-        <div>Page: Unassigned</div>
-    @endif
-    @if($article->all_pages == 1)
-        @unless($article->pages->isEmpty())
-            <div>Page:
-                @foreach($article->pages as $page)
-                    {{$page->title}}
+        All Pages: No
+        @endif
+        </div>
+        @unless($article->contentareas->isEmpty())
+            <article>Area:
+                @foreach($article->contentareas as $contentArea)
+                    {{$contentArea->title}}
                 @endforeach
-            </div>
+            </article>
         @endunless
-    @endif
 
+        @if($article->all_pages == 0)
+            <div>Page: Unassigned</div>
+        @endif
+        @if($article->all_pages == 1)
+            @unless($article->pages->isEmpty())
+                <div>Page:
+                    @foreach($article->pages as $page)
+                        {{$page->title}}
+                    @endforeach
+                </div>
+            @endunless
+        @endif
     <a href="{{ route('admin.articles.edit', $article->id) }}" class="btn btn-primary">Edit Article</a>
 
     <div class="col-md-6 text-right">

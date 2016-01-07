@@ -49,22 +49,22 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 
     public function articles(){
 
-        return $this->hasMany('App\Article');
+        return $this->hasMany('App\Article', 'user_id');
     }
 
     public function pages(){
 
-        return $this->hasMany('App\Page');
+        return $this->hasMany('App\Page', 'user_id');
     }
 
     public function contentAreas(){
 
-        return $this->hasMany('App\ContentArea');
+        return $this->hasMany('App\ContentArea', 'user_id');
     }
 
     public function cssTemplates(){
 
-        return $this->hasMany('App\CSSTemplate');
+        return $this->hasMany('App\CSSTemplate', 'user_id');
     }
 
     public function is_admin(){

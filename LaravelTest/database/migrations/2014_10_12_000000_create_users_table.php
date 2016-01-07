@@ -23,6 +23,16 @@ class CreateUsersTable extends Migration {
 			$table->string('password', 60);
 			$table->rememberToken();
 			$table->timestamps();
+
+            $table->foreign('created_by')               //foreign key
+            ->references('id')
+                ->on('users')
+                ->onDelete('cascade');
+
+            $table->foreign('modified_by')              //foreign key
+            ->references('id')
+                ->on('users')
+                ->onDelete('cascade');
 		});
 	}
 

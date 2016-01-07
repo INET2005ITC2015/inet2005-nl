@@ -18,20 +18,21 @@
                 </h2>
                 <h3>Alias: {{$article->alias}}</h3>
                 <div>Description: {{$article->description}}</div>
+
                 <div>@if($article->all_pages == 1)
                         All Pages: Yes
-                     @endif
+                    @endif
                     @if($article->all_pages == 0)
                         All Pages: No
                     @endif
 
                 </div>
                 @unless($article->contentAreas->isEmpty())
-                <div>Area:
+                    <div>Area:
                         @foreach($article->contentAreas as $contentArea)
                             {{$contentArea->title}}
                         @endforeach
-                </div>
+                    </div>
                 @endunless
 
                 @if($article->all_pages == 0)
@@ -39,18 +40,18 @@
                 @endif
                 @if($article->all_pages == 1)
                     @unless($article->pages->isEmpty())
-                <div>Page:
-                    @foreach($article->pages as $page)
-                        {{$page->title}}
-                    @endforeach
-                </div>
+                        <div>Page:
+                            @foreach($article->pages as $page)
+                                {{$page->title}}
+                            @endforeach
+                        </div>
                     @endunless
                 @endif
                 <div>{{$article->html_content}}</div>
                 <div>Created By:{{ $article->user->first_name }} {{ $article->user->last_name }}</div>
                 <div>Created At: {{ $article->created_at->format('M d,Y \a\t h:i a') }}</div>
-                <div>Modified By:{{$article->modified_by}}</div>
-                <div>Modified At:{{ $article->updated_at->format('M d,Y \a\t h:i a') }}</div>
+                {{--<div>Modified By:{{$article->modified_by}}</div>--}}
+                {{--<div>Modified At:{{ $article->updated_at->format('M d,Y \a\t h:i a') }}</div>--}}
             </article>
         @endforeach
 @stop
