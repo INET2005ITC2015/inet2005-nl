@@ -24,12 +24,12 @@
 
 <div class="form-group">
     {!!Form::label('page_list', 'Pages:') !!}
-    {!!Form::select('page_list[]',  array('' => 'Unassigned') + $page, null, ['class' => 'form-control']) !!}
+    {!!Form::select('page_list[]',  array('' => 'Unassigned') + $page_id, null, ['class' => 'form-control']) !!}
 </div>
 
 <div class="form-group">
     {!!Form::label('area_list', 'Content Area:') !!}
-    {!!Form::select('area_list[]',  $area, null, ['class' => 'form-control']) !!}
+    {!!Form::select('area_list[]',  $area_id, null, ['class' => 'form-control']) !!}
 </div>
 
 <div class="form-group">

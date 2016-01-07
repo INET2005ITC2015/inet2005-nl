@@ -59,20 +59,19 @@
         @endforeach
     </ul></nav>
 
-<section>
-@foreach ($areas as $area)
-    <div id='{{$area->alias}}'>
-    @foreach($articles as $article)
-    @endforeach
-        @foreach($area->articles as $article)
-            <article id='{{$article->alias}}'>
-                {!! $article->html_content !!}
-            </article>
-        @endforeach
-    </div>
-    @endforeach
 
-</section>
+    <section>
+    @foreach($areas as $area)
+        <div id='{{$area->alias}}'>
+               @foreach($articles as $article)
+                    <article id='{{$article->alias}}'>
+                    {!! $article->html_content !!}
+                    </article>
+                @endforeach
+        </div>
+        @endforeach
+    </section>
+
 </div>
 </body>
 </html>
