@@ -24,7 +24,7 @@
 
 <div class="form-group">
     {!!Form::label('page_list', 'Pages:') !!}
-    {!!Form::select('page_list[]',  array('' => 'Unassigned') + $page_id, null, ['class' => 'form-control']) !!}
+    {!!Form::select('page_list[]',  array_merge(['100000' => 'Unassigned'], $page_id), null, ['class' => 'form-control']) !!}
 </div>
 
 <div class="form-group">
