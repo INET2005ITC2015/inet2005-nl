@@ -64,17 +64,23 @@
     @foreach($areas as $area)
 
         <div id='{{$area->alias}}'>
-            @foreach($articles as $value=>$article)
-                        <article id='{{$article->alias}}'>
-                            {!! $article->html_content !!}
-                        </article>
-                       
-               @endforeach
-            
+           @foreach($currentPage->articles as $article)
+                    @foreach($article->contentAreas as $cArea)
+                        @if($area->id == $cArea->id)
+                           <div id='{{$article->alias}}'>
+                              {!! $article->html_content !!}
+                           </div>
+                            @if(Auth::user() &&  Auth::user()->is_author())
+                                <a href="{{ route('site.index') }}" class="btn btn-primary">Edit this Article</a>
+                            @endif
+                        @endif
+                    @endforeach
+            @endforeach
         </div>
         @endforeach
     </section>
 
 </div>
+
 </body>
 </html>

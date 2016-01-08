@@ -56,10 +56,6 @@
                     <li><a href="{{ url('admin/articles') }}">Articles</a></li>
                     <li><a href="{{ url('admin/csstemplates') }}">CSS Templates</a></li>
                 </ul>
-            @elseif(Auth::user() &&  Auth::user()->is_author())
-                <ul class="nav navbar-nav">
-                    <li><a href="{{ url('/site') }}">Main Site</a></li>
-                </ul>
             @endif
 
             <ul class="nav navbar-nav navbar-right">
