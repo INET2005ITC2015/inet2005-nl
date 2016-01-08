@@ -62,12 +62,15 @@
 
     <section>
     @foreach($areas as $area)
+
         <div id='{{$area->alias}}'>
-               @foreach($articles as $article)
-                    <article id='{{$article->alias}}'>
-                    {!! $article->html_content !!}
-                    </article>
-                @endforeach
+            @foreach($articles as $value=>$article)
+                        <article id='{{$article->alias}}'>
+                            {!! $article->html_content !!}
+                        </article>
+                       
+               @endforeach
+            
         </div>
         @endforeach
     </section>
